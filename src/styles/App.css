@@ -189,9 +189,14 @@ nav {
 #about{
   height: 100%;
   overflow-x: hidden;
+  padding:5rem 0rem
   
 }
 
+
+#about h1{
+  margin:5rem 0rem;
+}
 #about button{
   
   background-color: transparent;
