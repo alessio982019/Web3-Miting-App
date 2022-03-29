@@ -1,0 +1,930 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  #home {
+    background: url("./../images/Background-Mobile.png") ;
+    overflow: hidden;
+    width: 100vw;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    height: auto;
+    min-height: calc(2.31 * 100vw);
+    
+    display: inline-block;
+    position: relative;
+  }
+
+
+nav a{
+    padding: .0rem!important;
+    font-size: .8rem;
+    color: rgb(255, 255, 255)!important;
+    font-family: 'Luckiest Guy', cursive;
+    /* padding:.5rem .75rem!important; */
+}
+
+nav{
+  padding: 1rem .5rem!important
+}
+
+a{
+  text-decoration: none!important;
+}
+
+#logo-title{
+  visibility: hidden;
+  color: #ff6000!important;
+  font-size: 0rem;
+}
+
+ul img{
+  width: 36px;
+}
+#logo img{
+  width: 75px;
+  height: 75px;
+}
+#faqs{
+  height: 100vh;
+}
+
+ul li{
+  padding: .5rem .75rem;
+}
+#slider-shower {
+  opacity: 0.25;
+  
+  position: absolute;
+  width: 100%;
+  
+  background-color: #000000;
+  z-index: 20;
+}
+
+
+/* #minting{
+  background-color: rgba(17, 15, 15, 0.446);
+  padding:1rem;
+  padding: 5rem 3rem;
+  border-radius: 150px;
+  transform: translateY(50%);
+  left: 2%;
+
+
+} */
+
+a{
+  letter-spacing: 5px;
+}
+  html body { 
+    line-height: 40px;
+    letter-spacing: 2px;  
+    word-spacing: 5px ;
+    overflow-x:hidden;
+  
+  } 
+
+  h1{
+    font-family: 'Luckiest Guy', cursive;
+  }
+  
+  h5 {
+    color: white;
+  }
+  h1{
+    font-size: 2rem;
+    color: white;
+    z-index: 100;
+ 
+  }
+
+
+
+#minting{
+  background-color: rgba(17, 15, 15, 0.446);
+  padding:1rem;
+  padding: 2rem 2rem!important;
+  border-radius: 150px;
+  transform: translateY(100%);
+  
+
+
+}
+
+
+  #about p{
+
+    border-radius: 15px;
+    padding:12px;
+  }
+.z-10{
+  z-index: 10;
+}
+
+#about-text{
+  background-color: #000000c9;
+  height: 100%;
+  padding:0px 12px
+}
+
+
+#genesis p{
+  line-height: 50px;
+  border: solid;
+}
+#about-text p{
+  line-height: 40px;
+    border: solid;
+}
+.row>* {
+  padding:0!important
+}
+
+p{
+
+  font-size: 18px;
+  color: white;
+  padding:12px;
+
+
+}
+
+
+
+
+  .video-fluid {
+    
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 30px 35px #0ff;
+  }
+  video {
+  pointer-events: none;
+}
+.main-container{
+ 
+  background: linear-gradient(0deg, rgb(48, 149, 213) 20%, rgb(21, 21, 118) 80%);  
+    
+    width: 100%;
+    height: auto;
+    position: relative;
+ 
+    background-repeat: no-repeat;
+    
+    background-position: center top;
+}
+nav {
+  /* background-color: rgba(0, 0, 0, .5)!important; */
+  position:fixed!important;
+  z-index: 20;
+  width: 100vw;
+
+}
+
+
+#about{
+  height: 100%;
+  overflow-x: hidden;
+  
+}
+
+#about button{
+  
+  background-color: transparent;
+  border-style: none;
+  font-size: 36px;
+  color: white;
+  padding: 10px 200px;
+}
+
+
+
+.slider-cont{
+  
+  position: relative;
+  margin-top: 100px;
+  height: 450px;
+  opacity: 100;
+  animation-name: opacity;
+  animation-duration: 2s;
+}
+.slider{
+  
+  position:relative;
+  width: 100px;
+  display: flex;
+  height: 100px;
+  transform-style: preserve-3d;
+  animation: rotate 15s linear infinite
+
+}
+@keyframes rotate {
+  0%{
+      transform: perspective(2000px) rotateY(0deg);
+  }
+
+  100%{
+      transform: perspective(2000px) rotateY(360deg);
+  }
+}
+
+.slider span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: rotateY(calc(var(--i)*45deg)) translateZ(200px);
+  }
+
+.slider span img{
+  box-shadow: 0px 0px 40px 1px #0ff;
+  position:absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+  object-fit: cover;
+  transition: 1s
+}
+
+.slider span:hover img{
+  transform: translateY(-50px) scale(1.2);
+}
+
+
+#genesis video{
+  width: 100%;
+  box-shadow: 0px 0px 100px 50px #0ff;
+}
+#genesis p{
+  font-size: 14px;
+  line-height: 28px;
+  margin: 2rem 1rem;
+}
+#vision{
+
+}
+
+#vision p{
+  line-height: 50px;
+  font-size: 25px;
+
+}
+#slider img{
+  width: 10%;
+}
+#team{
+
+}
+
+.slider-left{
+  display: flex;
+  overflow-x: visible;
+  width: 200%;
+  animation: sliderLeft 15s linear infinite;
+  right: 0%;
+  position: relative;
+}
+.slider-left img{
+  width:7.5%;
+}
+
+@keyframes sliderLeft {
+
+
+  100%{
+      right: 100%
+  }
+}
+
+.slider-right{
+  display: flex;
+  overflow-x: visible;
+  width: 200%;
+  animation: sliderRight 15s linear infinite;
+  left: -100%;
+  position: relative;
+}
+.slider-right img{
+  width: 7.5%;
+}
+
+
+@keyframes sliderRight {
+
+
+  100%{
+      left: 0%
+  }
+}
+.flip-visible{
+  opacity: 100!important;
+}
+.flip-invisible{
+  opacity: 0;
+}
+
+
+#team-container{
+  
+  height: 150rem
+
+}
+
+.second-team {
+  height: 100rem!important;
+}
+.flip-box div{
+  margin:2rem 0rem;
+}
+.flip-box {
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  padding:2rem 0rem;
+  
+  
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  
+  
+}
+
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: relative;
+  width: 100%;
+  height: auto;
+  
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  box-shadow: 0px 0px 100px 15px #0ff;
+  color: black;
+  
+}
+
+.flip-box img{
+  width: 100%;
+}
+.flip-box-back:hover{
+  
+}
+/* Style the back side */
+.flip-box-back {
+  background-color: transparent;
+  color: white;
+  
+  
+  padding:1rem
+}
+#cartoon{
+ 
+}
+
+#team p{
+  font-size: 15px;
+  line-height: 25px;
+  padding: 5px 5px;
+}
+.member{
+  width: 100%;
+}
+.member img{
+  width: 100%;
+  box-shadow: 0px 0px 100px 15px #0ff;
+}
+
+.float-right{
+  float: right;
+}
+
+.float-left{
+  float: left;
+}
+
+.align-right{
+  margin-left: auto; 
+margin-right: 0;
+}
+
+.align-left{
+  margin-right: auto; 
+margin-left: 0;
+}
+#faqs{
+  
+}
+
+.land-img{
+  position: relative;
+    
+}
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+    /* .img-home {
+      animation: App-logo-spin infinite 3s linear;
+    } */
+  }
+
+
+@keyframes App-logo-spin {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(200%);
+    }
+  }
+
+
+
+#greenMap{
+  position:relative
+}
+/* 
+#map{
+  height: 2700px;
+  posi
+} */
+#greenMap img{
+  
+}
+
+
+
+#map div{
+  background-color: rgba(0, 0, 0, 0.385);
+  text-align: center;
+  width: 90%;
+  z-index: 10;
+  position:relative;
+  border-radius: 50px;
+  transition: transform .2s ;
+  margin: 0rem 5%
+}
+
+#map div:hover{
+  transform: scale(1.1);
+}
+
+#map h3{
+  font-size: 20px!important;
+  color: white;
+}
+#map p{
+  font-size: 14px!important;
+  font-family: var(--bs-body-font-family);
+  line-height: 25px;
+  padding:24px;
+
+}
+.ml-auto{
+  margin-left: auto;
+}
+
+.mr-auto{
+  margin-right: auto;
+}
+
+
+
+#season-two{
+  
+  width: 100%!important;
+ margin-top:10rem;
+}
+
+
+
+.collapsible{
+  text-align: start;
+}
+
+.content{
+  transform: linear 2s;
+  
+}
+
+
+
+#slider{
+
+  box-shadow: 0px 0px 100px 30px #000000; 
+}
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (min-width: 450px) {
+    #about-text p{
+      line-height: 50px;
+        border: solid;
+    }
+    
+    p{
+    
+      font-size: 22px;
+
+    }
+    #team-container{
+      padding:0rem 5rem
+    }
+    #genesis p{
+      font-size: 15px;
+      line-height: 28px;
+      margin: 1rem 1rem;
+    }
+
+  }
+
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+
+
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    #logo-title{
+      visibility: visible;
+      color: #ff6000!important;
+      font-size: 1.5rem;
+    }
+  
+    .slider{
+      width: 150px;
+      height: 150px;
+    }
+  
+    .slider span{
+  
+      transform: rotateY(calc(var(--i)*45deg)) translateZ(calc(300px));
+      }
+  
+
+      #about p{
+
+       
+        padding:12px;
+      }
+      #team-container{
+        padding:0rem 7.5rem
+      }
+      #team-container p{ 
+        font-size: 20px;
+      }
+      #team-container h2{ 
+        font-size: 46px;
+      }
+      .member{
+        perspective: 1000px;
+        background-color: transparent;
+        padding: 1rem;
+        width: 50%;
+      }
+      .member-front{
+
+      }
+      .member-back{
+
+      }
+      .member img{
+        width: 100%;
+        box-shadow: 0px 0px 100px 15px #0ff;
+      }
+
+      .second-team {
+        height: 110rem!important;
+      }
+
+
+      #map div{
+
+        width: 80%;
+
+        margin: 0rem 10%
+      }
+      
+ 
+      
+
+
+  
+
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .slider{
+      width: 175px;
+      height: 175px;
+    }
+  
+    .slider span{
+  
+      transform: rotateY(calc(var(--i)*45deg)) translateZ(calc(350px));
+      }
+
+      #about-text{
+
+        padding:0px 36px
+      }
+
+      #about-5,#about-4,#about-3{
+        visibility: hidden;
+        position: absolute;
+      }
+
+      #team-container{
+        display: flex;
+        height: 30rem;
+        padding: 0rem 0rem;
+      }
+      #team-container p{
+          font-size: 14px;
+        
+      }
+      #team-container h2{
+        font-size: 28px;
+      
+    }
+      .flip-box {
+        background-color: transparent;
+        width: 400px;
+        height: auto;
+        perspective: 1000px; /* Remove this if you don't want the 3D effect */
+      }
+      
+      /* This container is needed to position the front and back side */
+      .flip-box-inner {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+      }
+      
+      /* Do an horizontal flip when you move the mouse over the flip box container */
+      .flip-box:hover .flip-box-inner {
+        transform: rotateY(180deg);
+        
+      }
+      
+      /* Position the front and back side */
+      .flip-box-front, .flip-box-back {
+        position: absolute;
+        width: 100%;
+        
+        height: auto;
+        -webkit-backface-visibility: hidden; /* Safari */
+        backface-visibility: hidden;
+      }
+      
+      /* Style the front side (fallback if image is missing) */
+      .flip-box-front {
+        box-shadow:none;
+        /* background-color: #bbb; */
+        color: black;
+        /* box-shadow: 0px 0px 100px 15px #0ff; */
+      }
+      
+      .flip-box img{
+        width: 180px;
+        box-shadow: 0px 0px 100px 15px #0ff;
+      
+      }
+      .flip-box-back:hover{
+        
+      }
+      /* Style the back side */
+      .flip-box-back {
+        background-color: transparent;
+        color: white;
+        transform: rotateY(180deg);
+        /* box-shadow: 0px 0px 100px 15px #0ff; */
+        padding:1rem
+      }
+
+
+      .second-team {
+        height: 30rem!important;
+    }
+
+    #genesis p{
+      font-size: 14px;
+      line-height: 32px;
+      margin: 1rem 2rem;
+    }
+
+    .mr-auto {
+      margin-right: auto!important;
+  }
+  .ml-auto {
+    margin-left: auto!important;
+}
+    #map div{
+
+      width: 60%;
+
+      
+    }
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+  
+    h1{
+      font-size: 3rem;
+      color: white;
+      z-index: 100;
+   
+    }
+  
+    #home {
+      background: url("./../images/HomePage_Img.png") ;
+      overflow: hidden;
+      width: 100vw;
+      background-size: 100vw;
+      background-repeat: no-repeat;
+      min-height: calc(0.5625 * 100vw);
+    }
+
+    .slider{
+      width: 200px;
+      height: 200px;
+    }
+  
+    .slider span{
+  
+      transform: rotateY(calc(var(--i)*45deg)) translateZ(calc(400px));
+      }
+
+      #about-text{
+ 
+        padding:0px 48px
+      }
+
+      #about-3,#about-4{
+        visibility: visible;
+        position: relative;
+      }
+
+     
+      .flip-box img{
+        width: 240px     
+      }
+
+      #genesis p{
+        font-size: 16px;
+        line-height: 30px;
+        margin: 1rem 3rem;
+        padding:2rem
+      }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+  
+    .slider{
+      width: 225px;
+      height: 225px;
+    }
+  
+    .slider span{
+  
+      transform: rotateY(calc(var(--i)*45deg)) translateZ(500px);
+      }
+
+      #about-text{
+   
+        padding:0px 56px
+      }
+
+      #about-text p {
+        line-height: 50px;
+        border: solid;
+    }
+
+    p {
+      font-size: 20px;
+  }
+  #about-4{
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .flip-box img{
+    width: 300px     
+  }
+
+  #team-container h2 {
+    font-size: 36px;
+}
+
+#genesis p{
+  font-size: 20px;
+  line-height: 34px;
+  margin: 1rem 3rem;
+  padding:2rem
+}
+
+
+#map div{
+
+  width: 50%;
+
+  
+}
+  }
+  
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1500px) {
+  
+    ul img{
+      width: 48px;
+    }
+  
+    nav a{
+      font-size: 1.25rem;
+   
+  }
+  
+  #logo-title{
+  
+    font-size: 2.5rem;
+  }
+
+  .slider{
+    width: 250px;
+    height: 250px;
+  }
+
+  .slider span{
+
+    transform: rotateY(calc(var(--i)*45deg)) translateZ(calc(600px));
+    }
+
+    #about-text{
+      padding:0px 76px
+    }
+
+    #about-3{
+      visibility: hidden;
+      position: absolute;
+    }
+    #team-container {
+   
+      padding: 0rem 2rem;
+  }
+    .flip-box img{
+      width: 100%     
+    }
+    .flip-box {
+     
+      width: 25%;
+      
+  }
+
+  .second-team {
+    height: 50rem!important;
+}
+
+#team-container h2 {
+  font-size: 48px;
+}
+
+#genesis p{
+  font-size: 24px;
+  line-height: 36px;
+  margin: 1rem 5rem;
+  padding:3rem
+}
+
+#map div{
+
+  width: 40%;
+
+  
+}
+  }
