@@ -6,19 +6,19 @@ import * as s from "./../styles/globalStyles";
 function Cartoon(){
 
     return(
-        <div className=" text-center  " id="cartoon">
+        <div className=" text-center  " id="license">
 
 
 
 
     
 
-<div className="w-50 text-center mx-auto">
+<div className="w-75 text-center mx-auto">
 
 
 <h1>LICENSE</h1>
     
-    <s.SpacerXXL></s.SpacerXXL>
+    <s.SpacerLarge></s.SpacerLarge>
 
 <p>
 

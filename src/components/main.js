@@ -11,8 +11,10 @@ import Cartoon from './cartoon.js'
 import GreenMap from './greenMap.js'
 import FAQS from './faqs.js'
 import Slider from './slider.js'
+import FOoter from './footer.js'
 import AboutNew from './new_about.js'
 import * as s from './../styles/globalStyles.js'
+import Footer from "./footer.js";
 
 
 const truncate = (input, len) =>
@@ -46,7 +48,7 @@ function Main() {
     <s.SpacerXXXL></s.SpacerXXXL>
     <s.SpacerXXXL></s.SpacerXXXL>
     <GreenMap/>
-
+<Footer></Footer>
 
     </div>
 

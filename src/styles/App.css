@@ -66,8 +66,13 @@ ul img{
 }
 #faqs{
   height: 100vh;
+  background: linear-gradient(0deg, rgb(48, 149, 213) 20%, rgb(21, 21, 118) 80%);  ;
 }
-
+#license{
+  padding-top: 10rem;
+  height: auto;
+  background: linear-gradient(0deg, rgb(48, 149, 213) 20%, rgb(21, 21, 118) 80%);  ;
+}
 ul li{
   padding: .5rem .75rem;
 }
