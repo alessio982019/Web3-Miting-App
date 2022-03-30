@@ -25,7 +25,7 @@ function AboutNew(){
 
 
             <h1 className="py-5">ABOUT</h1>
-            <p>Our friendly neighbourhood pumpkins  are algorithmically generated, non-fungible tokens, also known as an "NFT." There is 8888 different fighting pumpkins and each pumpkin is totally genuine. GreenGang Pumpkins . GGP are minted, stored and traded on the Ethereum Blockchain.
+            <p className="align-middle">Our friendly neighbourhood pumpkins  are algorithmically generated, non-fungible tokens, also known as an "NFT." There is 8888 different fighting pumpkins and each pumpkin is totally genuine. GreenGang Pumpkins . GGP are minted, stored and traded on the Ethereum Blockchain.
             Our vision focuses on one crucial point: financial opportunities are well known to all, but what about opportunities for personal growth? We are a group of young skateboarders from the decentralized world who philosophically see pumpkins as a reflection of society. 
 What is the purpose of skateboarding? The skateboard is for moving quickly. A tool through which one can explore the world faster.  
   The plants represent the possibility of growing together. 
@@ -99,7 +99,7 @@ The various traits we have created represent the beauty of diversity. In their i
             <img src={Nft8} className = "w-100" alt="" />
             </div>
         </div>
-        <div className="row" id='about-5'>
+        {/* <div className="row" id='about-5'>
             <div className="col-6 col-sm-6 col-lg-3">
                 <img src={Nft5} className = "w-100" alt="" />
             </div>
@@ -112,7 +112,7 @@ The various traits we have created represent the beauty of diversity. In their i
             <div className="col-6 col-sm-6 col-lg-3">
             <img src={Nft8} className = "w-100" alt="" />
             </div>
-        </div>
+        </div> */}
 
 
 

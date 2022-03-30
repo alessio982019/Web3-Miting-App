@@ -79,6 +79,7 @@ typings/
 .node_repl_history
 
 # Output of 'npm pack'
+.node_modules
 
 \*.tgz
 
