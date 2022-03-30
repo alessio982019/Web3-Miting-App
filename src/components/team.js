@@ -19,7 +19,7 @@ function Team(){
 <h1>MEET THE GANG</h1>
 <s.SpacerXXL></s.SpacerXXL>
 
-<div className="container-fluid justify-content-around " id='team-container'>
+<div className="container-fluid justify-content-around  " id='team-container'>
 
 <div className="flip-box">
 <h2>ALEXEI</h2>
@@ -77,7 +77,7 @@ function Team(){
 
 </div>
 
-<s.SpacerXXXL></s.SpacerXXXL>
+<s.SpacerXXL></s.SpacerXXL>
 
 <div className="container-fluid justify-content-around second-team" id='team-container'>
 

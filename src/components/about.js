@@ -53,6 +53,7 @@ function About(){
                                 
                                
                                 <s.SpacerXXL></s.SpacerXXL>
+                                
                                 <Slide right>
                                 <div class="slider-cont">     
                                 <div class="slider mx-auto">

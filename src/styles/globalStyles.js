@@ -128,6 +128,32 @@ export const SpacerXXL = styled.div`
     height: 30px;
     width:30px
   }
+
+  @media (min-width: 600px) {
+    height: 50px;
+    width:50px
+  }
+
+  @media (min-width: 768px) {
+    height: 60px;
+    width:60px
+  }
+
+
+  @media only screen and  (min-width: 992px) {
+    height: 100px;
+    width:100px
+  }
+
+  @media (min-width: 1200px) {
+    height: 125px;
+    width:125px
+  }
+
+  @media (min-width: 1500px) {
+    height: 175px;
+    width:175px
+  }
 `;
 
 // Used for providing space between components
@@ -142,12 +168,12 @@ export const SpacerXXXL = styled.div`
   }
 
   @media (min-width: 1100px) {
-    height: 100px;
-    width:75px
+    height: 1;
+    width:100px
   }
   @media (min-width: 1300px) {
     height: 175px;
-    width:75px
+    width:175px
   }
 `;
 // Used for providing a wrapper around a component

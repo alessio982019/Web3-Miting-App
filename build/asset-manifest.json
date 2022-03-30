@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.479b2a85.chunk.css",
+    "main.js": "/static/js/main.abe7fd7f.chunk.js",
+    "main.js.map": "/static/js/main.abe7fd7f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9d82485c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9d82485c.js.map",
+    "static/js/2.3fc665ae.chunk.js": "/static/js/2.3fc665ae.chunk.js",
+    "static/js/2.3fc665ae.chunk.js.map": "/static/js/2.3fc665ae.chunk.js.map",
+    "static/js/3.8a840232.chunk.js": "/static/js/3.8a840232.chunk.js",
+    "static/js/3.8a840232.chunk.js.map": "/static/js/3.8a840232.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.479b2a85.chunk.css.map": "/static/css/main.479b2a85.chunk.css.map",
+    "static/js/2.3fc665ae.chunk.js.LICENSE.txt": "/static/js/2.3fc665ae.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/Desktop - 10.fc410195.png",
+    "static/media/metaverse-village 1.37429e00.png": "/static/media/metaverse-village 1.37429e00.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9d82485c.js",
+    "static/js/2.3fc665ae.chunk.js",
+    "static/css/main.479b2a85.chunk.css",
+    "static/js/main.abe7fd7f.chunk.js"
+  ]
+}

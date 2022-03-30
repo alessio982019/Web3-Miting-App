@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
   }
-
+html{
+  overflow-x: hidden;
+}
 
   #home {
     background: url("./../images/Background-Mobile.png") ;
@@ -18,19 +20,33 @@
     position: relative;
   }
 
-
+.container-fluid{
+  padding-right: 0!important;
+  padding-left:  0!important;
+}
 nav a{
     padding: .0rem!important;
-    font-size: .8rem;
+    font-size: .9rem;
     color: rgb(255, 255, 255)!important;
     font-family: 'Luckiest Guy', cursive;
     /* padding:.5rem .75rem!important; */
 }
 
+#navbarNav{
+  border-radius: 25px;
+  background-color: #00000091;
+}
+nav btn{
+  margin: 1rem;
+}
 nav{
-  padding: 1rem .5rem!important
+  padding: 1rem 0rem!important;
+
 }
 
+nav ul{
+  
+}
 a{
   text-decoration: none!important;
 }
@@ -272,7 +288,7 @@ nav {
 #genesis p{
   font-size: 14px;
   line-height: 28px;
-  margin: 2rem 1rem;
+  margin: 2rem 0rem;
 }
 #vision{
 
@@ -354,11 +370,15 @@ nav {
   background-color: transparent;
   width: 100%;
   height: auto;
-  padding:2rem 0rem;
+  padding:2rem 1.25rem;
   
   
 }
 
+
+#genesis{
+  padding:0rem .5rem
+}
 /* This container is needed to position the front and back side */
 .flip-box-inner {
   position: relative;
@@ -462,9 +482,13 @@ margin-left: 0;
   }
 
 
-
+#map{
+  padding-top: 5rem;
+  bottom:0
+}
 #greenMap{
-  position:relative
+  position:relative;
+  height: 275rem;
 }
 /* 
 #map{
@@ -472,7 +496,12 @@ margin-left: 0;
   posi
 } */
 #greenMap img{
-  
+  position: absolute;
+  bottom: 0%;
+    left: 50%;
+    /* top: 50%; */
+    -webkit-transform: translateX(-50%);
+
 }
 
 
@@ -515,7 +544,7 @@ margin-left: 0;
 
 #season-two{
   
-  width: 100%!important;
+  width: 80%!important;
  margin-top:10rem;
 }
 
@@ -529,7 +558,9 @@ margin-left: 0;
   transform: linear 2s;
   
 }
-
+#map h1{
+  padding:5rem 0rem
+}
 
 
 #slider{
@@ -555,9 +586,12 @@ margin-left: 0;
     #genesis p{
       font-size: 15px;
       line-height: 28px;
-      margin: 1rem 1rem;
+      margin: 1rem 0rem;
     }
-
+    #greenMap{
+      position:relative;
+      height: 200rem;
+    }
   }
 
 
@@ -629,7 +663,11 @@ margin-left: 0;
         margin: 0rem 10%
       }
       
- 
+      nav a{
+     
+        font-size: 1.25rem;
+        
+    }
       
 
 
@@ -738,7 +776,10 @@ margin-left: 0;
     #genesis p{
       font-size: 14px;
       line-height: 32px;
-      margin: 1rem 2rem;
+      margin: 1rem 0rem;
+    }
+    #genesis{
+      padding:0rem 1rem
     }
 
     .mr-auto {
@@ -753,11 +794,29 @@ margin-left: 0;
 
       
     }
+
+    #greenMap{
+      position:relative;
+      height: 210rem;
+    }
+
+    #map h1 {
+      padding: 10rem 0rem;
+  }
+
+  h1 {
+    font-size: 2.75rem;
+    color: white;
+    z-index: 100;
+}
   }
   
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
-  
+    #greenMap{
+      position:relative;
+      height: 175rem;
+    }
     h1{
       font-size: 3rem;
       color: white;
@@ -802,14 +861,25 @@ margin-left: 0;
       #genesis p{
         font-size: 16px;
         line-height: 30px;
-        margin: 1rem 3rem;
+        margin: 1rem 0rem;
         padding:2rem
       }
+
+      #map h1 {
+        padding: 10rem 0rem;
+    }
+    h1 {
+      font-size: 3rem;
+
+  }
   }
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
-  
+    #greenMap{
+      position:relative;
+      height: 175rem;
+    }
     .slider{
       width: 225px;
       height: 225px;
@@ -849,7 +919,7 @@ margin-left: 0;
 #genesis p{
   font-size: 20px;
   line-height: 34px;
-  margin: 1rem 3rem;
+  margin: 1rem 0rem;
   padding:2rem
 }
 
@@ -860,12 +930,27 @@ margin-left: 0;
 
   
 }
+
+#navbarNav{
+  border-radius: 25px;
+  background-color: #00000000;
+}
+
+#map h1 {
+  padding: 8rem 0rem;
+}
   }
   
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1500px) {
-  
+    #greenMap{
+      position:relative;
+      height: 170rem;
+    }
+    #map h1 {
+      padding: 10rem 0rem;
+  }
     ul img{
       width: 48px;
     }
@@ -922,7 +1007,7 @@ margin-left: 0;
 #genesis p{
   font-size: 24px;
   line-height: 36px;
-  margin: 1rem 5rem;
+  margin: 1rem 0rem;
   padding:3rem
 }
 

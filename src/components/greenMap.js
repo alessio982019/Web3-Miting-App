@@ -11,17 +11,16 @@ function GreenMap(){
 
 
 
-            <h1 className="text-center">GREENMAP</h1>
-            <s.SpacerXXL></s.SpacerXXL>
+       
 
     
 
             
 
 
-
              <div className="  position-absolute justify-content-center" id='map'> 
-
+             <h1 className="text-center">GREENMAP</h1>
+            
              <Slide left>
                  <div className=" mr-auto px-1 pt-5  ">
                     

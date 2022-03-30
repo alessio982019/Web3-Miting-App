@@ -37,7 +37,7 @@ function Main() {
       <Team/>
       <Genesis/>
    
-      <s.SpacerXXXL></s.SpacerXXXL>
+      <s.SpacerXXL></s.SpacerXXL>
 
     <Slider/>
 
