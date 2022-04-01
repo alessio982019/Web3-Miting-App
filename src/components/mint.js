@@ -145,7 +145,7 @@ function Mint(){
               </>
             ) : (
               <>
-              <h1>Connect your wallet and mint ouf NFT!</h1>
+              <h1>Connect your wallet and mint our NFT!</h1>
                 <h3 style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
                   
