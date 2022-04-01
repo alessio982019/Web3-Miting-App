@@ -48,7 +48,7 @@ function Main() {
 
     <s.SpacerXXXL></s.SpacerXXXL>
     <s.SpacerXXXL></s.SpacerXXXL>
-    <Opensea></Opensea>
+    {/* <Opensea></Opensea> */}
 
     <s.SpacerXXXL></s.SpacerXXXL>
 
