@@ -2,6 +2,7 @@ import React  from "react";
 import '../styles/App.css';
 import logo from './../images/Logo.png'
 import Fade from 'react-reveal/Fade';
+import Instagram from './../images/icons8-instagram-48.png'
 import { Link } from "react-router-dom";
 function Nav(){
 
@@ -61,14 +62,14 @@ function Nav(){
         
        
         <li class="nav-item">
-          <a class="nav-link " href=""> <img src="https://img.icons8.com/color/48/000000/twitter--v1.png"/></a>
+          <a class="nav-link " href="https://twitter.com/GGP_NFT" target="_blank"> <img src="https://img.icons8.com/color/48/000000/twitter--v1.png"/></a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link " href=""><img src="https://img.icons8.com/doodle/48/000000/discord-logo.png"/></a>
+          <a class="nav-link " href="" target="_blank"><img src="https://img.icons8.com/doodle/48/000000/discord-logo.png"/></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href=""><img src="https://img.icons8.com/color/48/000000/facebook-new.png"/></a>
+          <a class="nav-link " href="https://instagram.com/greengangpumpkins?utm_medium=copy_link" target="_blank"><img src={Instagram}/></a>
         </li>
        
         

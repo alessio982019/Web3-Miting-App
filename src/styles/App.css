@@ -9,7 +9,7 @@ html{
 
   #home {
     background: url("./../images/Background-Mobile.png") ;
-    overflow: hidden;
+   
     width: 100vw;
     background-size: 100vw;
     background-repeat: no-repeat;
@@ -126,16 +126,51 @@ a{
 
 
 #minting{
-  background-color: rgba(17, 15, 15, 0.446);
+  background-color: #ff6000bf!important;
+  border: solid white 10px;
   padding:1rem;
   padding: 2rem 2rem!important;
-  border-radius: 150px;
-  transform: translateY(100%);
-  
-
+  border-radius: 75px;
+  transform: translateY(120%);
+  width: 100%;
 
 }
 
+#minting button{
+  border-radius: 1.5rem;
+  padding:0.5rem 4rem!important
+}
+
+#minting a{
+  color: #ff6000!important;
+}
+
+
+
+
+  
+@keyframes pulsate {
+  0%{
+    opacity: 0.2;
+    font-size: 2rem;
+  }
+  
+  50%{
+    opacity: 1;
+    font-size: 4rem;
+  }
+  
+  100%{
+    opacity: 0.2;
+    font-size: 2rem;
+  }
+}
+#soldout-text{
+  animation: pulsate 1s ease-out  infinite;
+  font-size: 2rem;
+ 
+  opacity: 0.2;
+}
 
   #about p{
 
@@ -427,13 +462,34 @@ nav {
 .flip-box-back {
   background-color: transparent;
   color: white;
-  
-  
   padding:1rem
 }
 #cartoon{
+
+  background: black;
+  min-height: 100vh;
  
 }
+
+#cartoon p{
+  display: table-cell;
+  vertical-align: middle;
+  font-size:12px;
+  line-height: 18px;
+  text-align: center;
+  padding: 0 !important;
+}
+
+#cartoon img{
+  
+  padding-bottom: 16px;
+}
+#cartoon h1{
+  color: #ff6000!important;
+}
+
+
+
 
 #team p{
   font-size: 15px;
@@ -474,14 +530,35 @@ margin-left: 0;
     
 }
 
+#footer{
+  text-align: center;
+  background-color: #BC7E5E;
+  text-decoration: none;
+  top:0px;
+  position:relative;
+  
+  
+}
 
 
+#opensea{
+  height: 100vh;
+}
 
-@media (prefers-reduced-motion: no-preference) {
-    /* .img-home {
-      animation: App-logo-spin infinite 3s linear;
-    } */
-  }
+#license p{
+  font-size: 16px;
+}
+#footer small{
+  font-size: 12px!important;
+}
+
+#footer li{
+  list-style: none;
+}
+
+#footer a{
+  color: black!important;
+}
 
 
 @keyframes App-logo-spin {
@@ -609,7 +686,17 @@ margin-left: 0;
       position:relative;
       height: 200rem;
     }
-
+    #cartoon p{
+      font-size:15px;
+      line-height: 18px;
+      text-align: center;
+      padding: 0 !important;
+    }
+    
+    #cartoon img{
+      
+      padding-bottom: 28px;
+    }
 
   }
 
@@ -622,6 +709,17 @@ margin-left: 0;
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 600px) {
+    #cartoon p{
+      font-size:20px;
+      line-height: 22px;
+
+    }
+    
+    #cartoon img{
+      
+      padding-bottom: 36px;
+      padding-top: 36px;
+    }
     #about-3{
       height: 0;
       visibility: hidden;
@@ -700,7 +798,9 @@ margin-left: 0;
   
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
-
+    #minting{   
+      width: 75%;
+    }
     #about-text p{
       line-height: 36px;
         border: solid;
@@ -849,6 +949,27 @@ margin-left: 0;
   
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
+    .cartoon-par{
+      display: table;
+    }
+    #cartoon p{
+
+      font-size:22px;
+      line-height: 28px;
+
+      padding: 2rem 1rem !important;
+    }
+    
+    #cartoon img{
+      
+      padding: 2rem 2rem
+    }
+    
+    #minting{   
+      width: 50%;
+      transform: translateY(50%);
+      margin-left: 3rem;
+    }
     #greenMap{
       position:relative;
       height: 175rem;
@@ -913,6 +1034,23 @@ margin-left: 0;
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
+    #cartoon p{
+
+      font-size:24px;
+      line-height: 38px;
+
+      padding: 2rem 1rem !important;
+    }
+    
+    #cartoon img{
+      
+      padding-bottom: 16px;
+    }
+    #minting{   
+      width: 45%;
+      transform: translateY(50%);
+      margin-left: 3rem;
+    }
     #greenMap{
       position:relative;
       height: 175rem;
@@ -982,6 +1120,23 @@ margin-left: 0;
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1500px) {
 
+    #cartoon p{
+
+      font-size:22px;
+      line-height: 34px;
+
+      padding: 2rem 1rem !important;
+    }
+    
+    #cartoon img{
+      padding:0rem 2rem;
+      padding-bottom: 16px;
+    }
+    #minting{   
+      width: 40%;
+      transform: translateY(100%);
+      margin-left: 3rem;
+    }
     #about-4{
       visibility: hidden;
       height: 0%;

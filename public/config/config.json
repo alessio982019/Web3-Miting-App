@@ -1,6 +1,6 @@
 {
-  "CONTRACT_ADDRESS": "0x032AEed4C211dE146d252352F0DeEB5eCb09e60F",
-  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x032aeed4c211de146d252352f0deeb5ecb09e60f",
+"CONTRACT_ADDRESS": "0x9555afd7Dae7cb98afeD04A5FED49425271DCEc3",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x9555afd7Dae7cb98afeD04A5FED49425271DCEc3",
   "NETWORK": {
     "NAME": "Rinkeby",
     "SYMBOL": "ETH",
@@ -8,11 +8,11 @@
   },
   "NFT_NAME": "Green Gang Pumkins",
   "SYMBOL": "GGP",
-  "MAX_SUPPLY": 100,
+  "MAX_SUPPLY": 20,
   "WEI_COST": 50000000000000000,
   "DISPLAY_COST": 0.05,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/greengangpumkins",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/greengangpumkins-2d9n0bbgs9",
   "SHOW_BACKGROUND": true
 }

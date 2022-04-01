@@ -2,7 +2,7 @@ import React  from "react";
 import '../styles/App.css';
 import * as s from "./../styles/globalStyles";
 import useCollapse from 'react-collapsed';
-
+import { Link } from "react-router-dom";
 function Collapsible(props) {
     const config = {
         duration: 750,
@@ -22,9 +22,9 @@ function Collapsible(props) {
     const { getCollapseProps, getToggleProps, isExpanded } = useCollapse(config);
 return (
     
-    <div className="collapsible">
+    <div className="collapsible ">
         <s.SpacerLarge></s.SpacerLarge>
-        <div className="header" {...getToggleProps()}>
+        <div className="header text-uppercase" {...getToggleProps()}>
          <h5>{props.title}             </h5>
         </div>
         <div {...getCollapseProps()}>
@@ -63,6 +63,9 @@ function FAQS(){
 <Collapsible title="Where can I interact with other members of the GGP universe?" answer = 'In the Discord channel.  In this channel collectors can interact and help each other to create an amazing community. We describe ourselves as a different project but the modus operandi is the same as other NFT realities. We will also be present on Twitter and Instagram, where news about the collection and our good intentions will be posted daily. ' ></Collapsible>
 
 <Collapsible title="Why use the ethereum network if we want to promote environmental protection? " answer = 'We are aware of the Proof of Work situation. By monitoring the market and its evolution we are proud supporters of the transition to Ethereum 2.0 or "Consensus Layer", which will make Ethereum  more scalable, more secure and more sustainable.' ></Collapsible>
+
+<Collapsible title="WHAT AM I ALLOWED TO DO WITH THE ART ASSOCIATED WITH MY NFT? " answer = 'Check our license!' ></Collapsible>
+
 <p>
 
 

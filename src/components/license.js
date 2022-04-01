@@ -6,7 +6,7 @@ import * as s from "./../styles/globalStyles";
 function Cartoon(){
 
     return(
-        <div className=" text-center  " id="license">
+        <div className="   " id="license">
 
 
 
@@ -16,13 +16,22 @@ function Cartoon(){
 <div className="w-75 text-center mx-auto">
 
 
-<h1>LICENSE</h1>
-    
+{/* <h1>LICENSE</h1>
+     */}
     <s.SpacerLarge></s.SpacerLarge>
 
+
+<ul>
+
+     <li>1</li>
+
+
+</ul>
+
+<h1>DEFINITIONS</h1>
 <p>
 
-1.DEFINITIONS
+
 “Art” means any art, design, and drawings that may be associated with an
 
 NFT that you Own.
@@ -47,8 +56,12 @@ limitation, patent applications and disclosures), copyrights, trade secrets,
 trademarks, know-how or any other intellectual property rights recognized in
 
 any country or jurisdiction in the world.
+</p>
 
-2.OWNERSHIP
+
+
+<h1>OWNERSHIP</h1>
+<p>
 You acknowledge and agree that &quot;GreenGangPumpkins&quot; (or, if applicable, its
 licensors) owns all legal right, title and interest in and to the Art, and all
 intellectual property rights therein. The rights you have in and to the Art are
@@ -68,11 +81,13 @@ party website or application that permits the inclusion, involvement, or
 participation of your NFTs, provided that the website/application
 cryptographically verifies each NFT owner’s rights to display the Art for their
 Purchased NFTs to ensure that only the actual owner can display the Art, and
-provided that the Art is no longer visible once the owner of the Purchased
+provided that the Art is no longer visible once the owner of the Purchased NFT leaves the website/application.
+</p>
 
-NFT leaves the website/application.
+<h1>Commercial Use</h1>
 
-b. Commercial Use. Subject to your continued compliance with the terms of
+<p>
+Subject to your continued compliance with the terms of
 this License, &quot;GreenGangPumpkins&quot; grants you a limited, worldwide, non-
 exclusive, non-transferable license to use, copy, and display the Art for your
 Purchased NFTs for the purpose of commercializing your own merchandise
@@ -96,8 +111,12 @@ Purchased NFT leaves the website/application; or (iii) earning revenue from
 any of the foregoing, even where such revenue is in excess of $100,000 per
 
 year.
+</p>
 
-4.RESTRICTIONS
+<h1>RESTRICTIONS</h1>
+
+<p>
+
 You agree that you may not, nor permit any third party to do or attempt to do
 any of the foregoing without &quot;GreenGangPumpkins&quot; express prior written
 consent in each case: (i) modify the Art for your Purchased NFT in any way,
@@ -134,8 +153,11 @@ such restrictions from the date that you receive the notice, and that failure to
 do so will be deemed a breach of this license. The restriction in Section 4 will
 
 survive the expiration or termination of this License.
+</p>
 
-5.TERMS OF LICENSE.
+
+<h1>TERMS OF LICENSE</h1>
+<p>
 The license granted in Section 3 above applies only to the extent that you
 continue to Own the applicable Purchased NFT. If at any time you sell, trade,
 donate, give away, transfer, or otherwise dispose of your Purchased NFT for
@@ -160,7 +182,12 @@ reimburse &quot;GreenGangPumpkins&quot; for any costs and expenses incurred by
 
 License against you.
 
-6.GOVERNING LAW
+</p>
+
+<h1>GOVERNING LAW</h1>
+
+
+<p>
 If any provision in this License shall be held to be illegal, invalid or
 unenforceable, in whole or in part, the provision shall apply with whatever
 deletion or modification is necessary so that the provision is legal, valid and
@@ -171,8 +198,11 @@ duties of parties hereunder, shall be governed, interpreted and enforced in
 
 accordance with the laws of Italy.
 
+</p>
 
-    </p>
+
+
+   
 
 </div>
 

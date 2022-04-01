@@ -24,7 +24,7 @@ function GreenMap(){
              <Slide left>
                  <div className=" mr-auto px-1 pt-5  ">
                     
-                    <h3>LEVEL 1 : The adventure begins!</h3>
+                    <h3>LEVEL I : The adventure begins!</h3>
                     <p>
                         <ul className="text-start">
                             <li>
@@ -44,7 +44,7 @@ function GreenMap(){
                 <Slide right>
                 <div className="ml-auto px-1 pt-5">
                     
-                    <h3>LEVEL II : Collaboration with Treedom</h3>
+                    <h3>10% | LEVEL II : Collaboration with Treedom</h3>
                     <p className="text-start">
 
                     This company already collaborates with realities such as Berlucchi, Timberland, Samsung, H&M… Their transparency in photographing and geolocating each tree planted reflects our green philosophy. Let's create our own GGP forest guys! We finance farmers who want to plant trees. Farmers receive from Treedom the know-how and technical support .We will donate 10k euros to plant trees in the world, giving life to this awesome goal and we will monitor the results together, feeling active in the community. 
@@ -56,7 +56,7 @@ function GreenMap(){
                 <Slide left>
                 <div className=" mr-auto px-1 pt-5 ">
                     
-                    <h3>LEVEL III</h3>
+                    <h3>25% | LEVEL III</h3>
                     <p>
                         <ul className="text-start">
                             <li>
@@ -76,7 +76,7 @@ function GreenMap(){
                 <Slide right>
                 <div className="ml-auto px-1 pt-5">
                     
-                    <h3>LEVEL IV</h3>
+                    <h3>50% | LEVEL IV</h3>
                     <p>
                     <ul className="text-start">
                             <li>
@@ -94,15 +94,17 @@ function GreenMap(){
                 <Slide left>
                 <div className=" mr-auto px-1 pt-5 ">
                     
-                    <h3>LEVEL V</h3>
+                    <h3>75% | LEVEL V</h3>
                     <p>
                     <ul className="text-start">
+                    <li>During the trek...some pumpkins develop a sense of rejection of good intentions. A new battle is upon us: We need the right armor to restore balance: Merchandising Development!</li>
+
                             <li>
-                            Second injection of liquidity into the community wallet. 
+                            Unbelievable partnership with a 3-time Oscar winner for "Apocalypse now", "Reds" and "The Last Emperor".  Are you curious about the benefits to GGP holders, resulting from the collaboration? Two great prizes will be dedicated to our family! 
+What will it be? Who will be the Artist? Follow us on the main social.
                             </li>
                             
-                            <li>During the trek...some pumpkins develop a sense of rejection of good intentions. A new battle is upon us: We need the right armor to restore balance: Merchandising Development!</li>
-
+                         
 
                         </ul>
                     </p>
@@ -112,7 +114,7 @@ function GreenMap(){
                 <Slide right>
                 <div className="ml-auto px-1 pt-5">
                     
-                    <h3>FASE VI</h3>
+                    <h3>100% | FASE VI</h3>
                     <p>
                     <ul className="text-start">
                             <li>

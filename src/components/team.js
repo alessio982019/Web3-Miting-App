@@ -2,11 +2,11 @@ import React  from "react";
 import '../styles/App.css';
 import * as s from "./../styles/globalStyles";
 
-import Nft1 from './../images/85.png'
-import Nft2 from './../images/69.png'
-import Nft3 from './../images/85.png'
-import Nft4 from './../images/61.png'
-import Nft5 from './../images/84.png'
+import MATT from './../images/MATT.jpeg'
+import ALEXEI from './../images/ALEXEI.jpg'
+import ALEKSY from './../images/ALEKSY.jpg'
+import SIMON from './../images/SIMON.jpeg'
+import ADRI from './../images/ADRI.jpeg'
 function Team(){
 
     return(
@@ -26,7 +26,7 @@ function Team(){
   <div className="flip-box-inner">
 
     <div className="flip-box-front">
-      <img src={Nft1} alt="Paris"/>
+      <img src={ALEXEI} alt="Paris"/>
     </div>
 
     <div className="flip-box-back">
@@ -43,7 +43,7 @@ function Team(){
   <div className="flip-box-inner">
   
     <div className="flip-box-front">
-      <img src={Nft2} alt="Paris"/>
+      <img src={MATT} alt="Paris"/>
     </div>
 
     <div className="flip-box-back">
@@ -57,11 +57,11 @@ function Team(){
 
 
 <div className="flip-box">
-<h2>ALEXISIO</h2>
+<h2>ALEKSY</h2>
   <div className="flip-box-inner">
   
     <div className="flip-box-front">
-      <img src={Nft4} alt="Paris"/>
+      <img src={ALEKSY} alt="Paris"/>
     </div>
 
     <div className="flip-box-back">
@@ -81,12 +81,32 @@ function Team(){
 
 <div className="container-fluid justify-content-around second-team" id='team-container'>
 
+
+
+<div className="flip-box ">
+<h2>SIMON</h2>
+  <div className="flip-box-inner">
+
+    <div className="flip-box-front">
+      <img src={SIMON} alt="Paris"/>
+    </div>
+
+    <div className="flip-box-back">
+      
+      <p>Incredible artist with a golden touch, a lifelong lover of the world of comics. Illustrator and Cartoonist. He decided to interact with GreenGang Pumpkins to create a truly formidable project.</p>
+    </div>
+  </div>
+
+
+</div>
+
+
 <div className="flip-box ">
 <h2>ADRI</h2>
   <div className="flip-box-inner">
 
     <div className="flip-box-front">
-      <img src={Nft4} alt="Paris"/>
+      <img src={ADRI} alt="Paris"/>
     </div>
 
     <div className="flip-box-back">
@@ -98,24 +118,6 @@ Artist, Nature lover, friendly co-worker and creator of the 3D content. </p>
 
 
 </div>
-
-<div className="flip-box ">
-<h2>SIMON</h2>
-  <div className="flip-box-inner">
-
-    <div className="flip-box-front">
-      <img src={Nft5} alt="Paris"/>
-    </div>
-
-    <div className="flip-box-back">
-      
-      <p>Incredible artist with a golden touch, creator of the comic book part. </p>
-    </div>
-  </div>
-
-
-</div>
-
 </div>
 
 

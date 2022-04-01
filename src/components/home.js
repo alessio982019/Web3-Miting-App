@@ -9,7 +9,7 @@ function Home(){
         <div className="" id='home'>
                {/* <img src={Image_btm} className=' position-absolute' alt="" />  */}
                 <Bounce right>
-                {/* <Mint/> */}
+                <Mint/>
                 </Bounce>
                
 

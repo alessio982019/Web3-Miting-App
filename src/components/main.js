@@ -15,7 +15,7 @@ import FOoter from './footer.js'
 import AboutNew from './new_about.js'
 import * as s from './../styles/globalStyles.js'
 import Footer from "./footer.js";
-
+import Opensea from "./opensea.js";
 
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
@@ -38,11 +38,19 @@ function Main() {
       <s.SpacerXXXL></s.SpacerXXXL>
       <Team/>
       <Genesis/>
+
+
    
       <s.SpacerXXL></s.SpacerXXL>
 
+      <s.SpacerXXXL></s.SpacerXXXL>
     <Slider/>
 
+    <s.SpacerXXXL></s.SpacerXXXL>
+    <s.SpacerXXXL></s.SpacerXXXL>
+    <Opensea></Opensea>
+
+    <s.SpacerXXXL></s.SpacerXXXL>
 
    
     <s.SpacerXXXL></s.SpacerXXXL>

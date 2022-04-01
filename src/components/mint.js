@@ -110,7 +110,10 @@ function Mint(){
 
     return(
         
-        <div className="section row text-center position-relative px-2" >
+        <div className="section justify-content-center text-center position-relative px-2 mx-1" >
+
+
+
 
           <div className="" id = 'minting'>
 
@@ -118,7 +121,7 @@ function Mint(){
          
 
           
-        <h1>Mint</h1>
+        {/* <h1>Mint</h1> */}
         <s.SpacerMedium></s.SpacerMedium>
       {/* <h5>Your current supply is {data.totalSupply} / {CONFIG.MAX_SUPPLY}</h5> */}
       <s.SpacerSmall></s.SpacerSmall>
@@ -128,60 +131,55 @@ function Mint(){
 
       {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
                 <>
-                <h1 style={{ textAlign: "center", color: "var(--accent-text)" }}>
-                  The sale has ended.
+                <h1 id='soldout-text'style={{ textAlign: "center", color: "var(--accent-text)" }}>
+                  SOLD OUT!
                 </h1>
 
-                <h3 style={{ textAlign: "center", color: "var(--accent-text)" }}>
-                  You can still find {CONFIG.NFT_NAME} on
-                </h3>
-                <s.SpacerSmall />
-                <a className ="nav-item" target={"_blank"} href={CONFIG.MARKETPLACE_LINK}>
+                {/* <h5 style={{ textAlign: "center", color: "var(--accent-text)" }}>
+                  Check out collection on   <a className ="nav-item" target={"_blank"} href={CONFIG.MARKETPLACE_LINK}>
                   {CONFIG.MARKETPLACE}
                 </a>
+                </h5> */}
+                <s.SpacerSmall />
+               
               </>
             ) : (
               <>
-                <h1
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+              <h1>Connect your wallet and mint ouf NFT!</h1>
+                <h3 style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  1 {CONFIG.SYMBOL} = {CONFIG.DISPLAY_COST}{" "}
-                  {CONFIG.NETWORK.SYMBOL}.
-                </h1>
+                  
+                  {/* {CONFIG.SYMBOL} */}
+                  
+                   {/* Cost:  {CONFIG.DISPLAY_COST}{" "} {CONFIG.NETWORK.SYMBOL} (  Excluding gas fees.) */}
+                </h3>
 
                 <s.SpacerXSmall />
 
                 <h3
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  Excluding gas fees.
+                 
                 </h3>
+
+
                 <s.SpacerSmall></s.SpacerSmall>
                 <s.SpacerSmall />
 
                 {blockchain.account === "" ||  blockchain.smartContract === null ? (
                   <s.Container ai={"center"} jc={"center"}>
-                    {/* <h5
-                      style={{
-                        textAlign: "center",
-                        color: "var(--accent-text)",
-                      }}
-                    >
-                      Connect to the {CONFIG.NETWORK.NAME} network
-                    </h5> */}
+               
                     <s.SpacerSmall />
-                    <button type="button" className="btn btn-light" 
+
+                    <button type="button" class="btn btn-outline-light"
                     onClick={(e) => {
                         e.preventDefault();
                         dispatch(connect());
                         getData();
-                      }}>
-                        Connect
-                        </button>
-                    
+                      }}>Connect
                       
-                 
-           
+                      </button>
+                    
                     {blockchain.errorMsg !== "" ? (
                       <>
                         <s.SpacerSmall />
@@ -209,7 +207,7 @@ function Mint(){
                     <s.SpacerMedium />
 
                     <s.Container ai={"center"} jc={"center"} fd={"row"}>
-                      <btn className='btn btn-light'
+                    <button type="button" class="btn btn-outline-light"
                         
                         disabled={claimingNft ? 1 : 0}
                         onClick={(e) => {
@@ -219,7 +217,7 @@ function Mint(){
                       >
 
                         
-                      </btn>
+                      </button>
                       
                       <s.SpacerSmall></s.SpacerSmall>
                       <s.SpacerMedium />
@@ -233,7 +231,7 @@ function Mint(){
                       </h3>
                       <s.SpacerMedium />
                       <s.SpacerSmall></s.SpacerSmall>
-                      <btn className='btn btn-light'
+                      <button type="button" class="btn btn-outline-light"
                         disabled={claimingNft ? 1 : 0}
                         onClick={(e) => {
                           e.preventDefault();
@@ -241,12 +239,12 @@ function Mint(){
                         }}
                       >
                         +
-                      </btn>
+                      </button>
                       
                     </s.Container>
                     <s.SpacerSmall />
                     <s.Container ai={"center"} jc={"center"} fd={"row"}>
-                      <btn className='btn btn-lg btn-block btn-light'
+                    <button type="button" class="btn btn-outline-light"
                         disabled={claimingNft ? 1 : 0}
                         onClick={(e) => {
                           e.preventDefault();
@@ -255,7 +253,7 @@ function Mint(){
                         }}
                       >
                         {claimingNft ? "BUSY" : "BUY"}
-                      </btn>
+                      </button>
                      
                     </s.Container>
                   </>

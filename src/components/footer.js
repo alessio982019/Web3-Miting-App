@@ -11,12 +11,16 @@ function Footer(){
 
 
 
-        <div class="w-100">     
+        <div class="w-100 d-flex justify-content-around" id='footer'>     
+        <small>
          <Link to='/license'>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="">License</a>
-        </li>
+        
+          @License
+       
         </Link>
+        </small>
+        
+        
 
 
 
