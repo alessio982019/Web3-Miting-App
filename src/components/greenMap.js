@@ -114,7 +114,7 @@ What will it be? Who will be the Artist? Follow us on the main social.
                 <Slide right>
                 <div className="ml-auto px-1 pt-5">
                     
-                    <h3>100% | FASE VI</h3>
+                    <h3>100% | LEVEL VI</h3>
                     <p>
                     <ul className="text-start">
                             <li>
