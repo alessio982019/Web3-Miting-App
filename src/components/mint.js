@@ -178,7 +178,7 @@ function Mint(){
                         getData();
                       }}>Connect
                       
-                      </button>
+                      -</button>
                     
                     {blockchain.errorMsg !== "" ? (
                       <>
@@ -214,7 +214,7 @@ function Mint(){
                           e.preventDefault();
                           decrementMintAmount();
                         }}
-                      >
+                      >-
 
                         
                       </button>
