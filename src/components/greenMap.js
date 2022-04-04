@@ -43,8 +43,10 @@ function GreenMap(){
                 </Slide>
                 <Slide right>
                 <div className="ml-auto px-1 pt-5">
+                   
+                    <h3>10% | LEVEL II : Collaboration with <a href="https://www.treedom.net/en/about-us">Treedom</a></h3> 
+                
                     
-                    <h3>10% | LEVEL II : Collaboration with Treedom</h3>
                     <p className="text-start">
 
                     This company already collaborates with realities such as Berlucchi, Timberland, Samsung, H&M… Their transparency in photographing and geolocating each tree planted reflects our green philosophy. Let's create our own GGP forest guys! We finance farmers who want to plant trees. Farmers receive from Treedom the know-how and technical support .We will donate 10k euros to plant trees in the world, giving life to this awesome goal and we will monitor the results together, feeling active in the community. 

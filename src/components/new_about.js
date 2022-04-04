@@ -25,7 +25,7 @@ function AboutNew(){
 
 
             <h1 className="py-5">ABOUT</h1>
-            <p className="align-middle">Our friendly neighbourhood pumpkins  are algorithmically generated, non-fungible tokens, also known as an "NFT." There are 8888 different fighting pumpkins and each pumpkin is totally genuine. GreenGang Pumpkins . GGP are minted, stored and traded on the Ethereum Blockchain.
+            <p className="align-middle">Our friendly neighbourhood pumpkins  are algorithmically generated, non-fungible tokens, also known as an "NFT." There are 8888 different fighting pumpkins and each pumpkin is totally genuine. GGP are minted, stored and traded on the Ethereum Blockchain.
             Our vision focuses on one crucial point: financial opportunities are well known to all, but what about opportunities for personal growth? We are a group of young skateboarders from the decentralized world who philosophically see pumpkins as a reflection of society. 
 What is the purpose of skateboarding? The skateboard is for moving quickly. A tool through which one can explore the world faster.  
   The plants represent the possibility of growing together. 

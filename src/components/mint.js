@@ -4,9 +4,11 @@ import * as s from "./../styles/globalStyles";
 import { useDispatch, useSelector } from "react-redux";
 import { connect }  from './../redux/blockchain/blockchainActions';
 import { fetchData } from "./../redux/data/dataActions";
+import Instagram from './../images/icons8-instagram-48.png'
 function Mint(){
 
     const dispatch = useDispatch();
+    const [isWhiteListed,setIsWhiteListed] = useState('test')
     const blockchain = useSelector((state) => state.blockchain);
     const data = useSelector((state) => state.data);
     const [claimingNft, setClaimingNft] = useState(false);
@@ -32,7 +34,24 @@ function Mint(){
     });
 
 
-    
+    const checkWhiteList = () => {
+
+      console.log("Checking white listed users...");
+
+
+      blockchain.smartContract.functions.isWhiteListed(blockchain.account).send(
+        {
+          from: blockchain.account
+        }
+      ).once("error",(err) =>{
+        console.log(err)
+        setIsWhiteListed("Error")
+      }).then((receipt) =>{
+        console.log("Checking if address is  whitelisted:" + blockchain.account);
+        console.log(receipt);
+        setIsWhiteListed("Success")
+      })
+    };   
     const claimNFTs = () => {
       let cost = CONFIG.WEI_COST;
       let gasLimit = CONFIG.GAS_LIMIT;
@@ -116,30 +135,43 @@ function Mint(){
 
 
           <div className="" id = 'minting'>
+           
+  
+<h1>The Green Pumkins are not born yet!</h1>
+
+<h3>Keep yourself up to date by following on our social</h3>
+
+      <s.SpacerLarge></s.SpacerLarge>
+
+      <div className="d-flex justify-content-around">
+      <a  href="https://twitter.com/GGP_NFT" target="_blank"> <img src="https://img.icons8.com/color/48/000000/twitter--v1.png"/></a>
+ 
+
+  
+ <a  href="" target="_blank"><img src="https://img.icons8.com/doodle/48/000000/discord-logo.png"/></a>
 
 
-         
+ <a c href="https://instagram.com/greengangpumpkins?utm_medium=copy_link" target="_blank"><img src={Instagram}/></a>
 
-          
-        {/* <h1>Mint</h1> */}
+
+
+      </div>
+
+
+    
         <s.SpacerMedium></s.SpacerMedium>
-      {/* <h5>Your current supply is {data.totalSupply} / {CONFIG.MAX_SUPPLY}</h5> */}
+
       <s.SpacerSmall></s.SpacerSmall>
-      {/* <a class="btn btn-primary" target={"_blank"}  href={CONFIG.SCAN_LINK} role="button">{CONFIG.CONTRACT_ADDRESS}</a> */}
 
 
 
-      {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
+
+      {/* {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
                 <>
                 <h1 id='soldout-text'style={{ textAlign: "center", color: "var(--accent-text)" }}>
                   SOLD OUT!
                 </h1>
 
-                {/* <h5 style={{ textAlign: "center", color: "var(--accent-text)" }}>
-                  Check out collection on   <a className ="nav-item" target={"_blank"} href={CONFIG.MARKETPLACE_LINK}>
-                  {CONFIG.MARKETPLACE}
-                </a>
-                </h5> */}
                 <s.SpacerSmall />
                
               </>
@@ -149,9 +181,7 @@ function Mint(){
                 <h3 style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
                   
-                  {/* {CONFIG.SYMBOL} */}
-                  
-                   {/* Cost:  {CONFIG.DISPLAY_COST}{" "} {CONFIG.NETWORK.SYMBOL} (  Excluding gas fees.) */}
+       
                 </h3>
 
                 <s.SpacerXSmall />
@@ -178,7 +208,7 @@ function Mint(){
                         getData();
                       }}>Connect
                       
-                      -</button>
+                      </button>
                     
                     {blockchain.errorMsg !== "" ? (
                       <>
@@ -259,7 +289,7 @@ function Mint(){
                   </>
                 )}
               </>
-            )}
+            )} */}
 
 
 </div>
