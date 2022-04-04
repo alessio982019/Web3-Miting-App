@@ -139,7 +139,7 @@ function Mint(){
   
 <h1>The Green Pumkins are not born yet!</h1>
 
-<h3>Keep yourself up to date by following on our social</h3>
+<h3>Keep yourself up to date by following on:</h3>
 
       <s.SpacerLarge></s.SpacerLarge>
 

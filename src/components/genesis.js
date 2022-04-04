@@ -25,7 +25,7 @@ function Genesis(){
     <iframe
       width="853"
       height="480"
-      src={`https://www.youtube.com/embed/LA14n1In-wo?start=7&autoplay=1`}
+      src={`https://www.youtube.com/embed/LA14n1In-wo?&playlist=LA14n1In-wo?&loop=1&autoplay=1`}
       frameBorder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture,controls muted"
       allowFullScreen
