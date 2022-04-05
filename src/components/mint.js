@@ -137,9 +137,9 @@ function Mint(){
           <div className="" id = 'minting'>
            
   
-<h1>Pumpkins are not on sales yet!</h1>
+<h1>Pumpkins are not on sale yet!</h1>
 
-<h3>Keep yourself up to date by followig us on our social channels:</h3>
+<h3>Keep yourself up to date by following us on our social channels:</h3>
 
       <s.SpacerLarge></s.SpacerLarge>
 
