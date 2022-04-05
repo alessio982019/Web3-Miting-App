@@ -137,9 +137,9 @@ function Mint(){
           <div className="" id = 'minting'>
            
   
-<h1>The Green Pumkins are not born yet!</h1>
+<h1>Pumpkins are not on sales yet!</h1>
 
-<h3>Keep yourself up to date by following on:</h3>
+<h3>Keep yourself up to date by followig us on our social channels:</h3>
 
       <s.SpacerLarge></s.SpacerLarge>
 
@@ -151,7 +151,7 @@ function Mint(){
  <a  href="" target="_blank"><img src="https://img.icons8.com/doodle/48/000000/discord-logo.png"/></a>
 
 
- <a c href="https://instagram.com/greengangpumpkins?utm_medium=copy_link" target="_blank"><img src={Instagram}/></a>
+ <a  href="https://instagram.com/greengangpumpkins?utm_medium=copy_link" target="_blank"><img src={Instagram}/></a>
 
 
 

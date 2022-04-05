@@ -18,7 +18,7 @@ function GreenMap(){
             
 
 
-             <div className="  position-absolute justify-content-center" id='map'> 
+             <div className="  position-relative justify-content-center" id='map'> 
              <h1 className="text-center">GREENMAP</h1>
             
              <Slide left>

@@ -32,7 +32,7 @@ function Main() {
 
       <Home/>
       <s.SpacerXXXL></s.SpacerXXXL>
-      <s.SpacerXXXL></s.SpacerXXXL>
+      
       <About/>
       <AboutNew/>
       <s.SpacerXXXL></s.SpacerXXXL>
@@ -47,14 +47,13 @@ function Main() {
     <Slider/>
 
     <s.SpacerXXXL></s.SpacerXXXL>
-    <s.SpacerXXXL></s.SpacerXXXL>
+  
     {/* <Opensea></Opensea> */}
 
-    <s.SpacerXXXL></s.SpacerXXXL>
 
    
-    <s.SpacerXXXL></s.SpacerXXXL>
-    <s.SpacerXXXL></s.SpacerXXXL>
+    
+    
     <GreenMap/>
 <Footer></Footer>
 

@@ -2,11 +2,11 @@ import React  from "react";
 import '../styles/App.css';
 import * as s from "./../styles/globalStyles";
 
-import MATT from './../images/MATT.jpeg'
-import ALEXEI from './../images/ALEXEI.jpg'
-import ALEKSY from './../images/ALEKSY.jpg'
-import SIMON from './../images/SIMON.jpeg'
-import ADRI from './../images/ADRI.jpeg'
+import MATT from './../images/Team/MATT.jpeg'
+import ALEXEI from './../images/Team/ALEXEI.jpg'
+import ALEKSY from './../images/Team/ALEKSY.jpg'
+import SIMON from './../images/Team/SIMON.jpeg'
+import ADRI from './../images/Team/ADRI.jpeg'
 function Team(){
 
     return(
@@ -111,7 +111,7 @@ function Team(){
 
     <div className="flip-box-back">
       
-      <p>Our stunning genius in digital compositing, lighting  and filmmaking was the driving force behind this project. His excellent preparation can be found in such films as 'Being the Ricardos’ , 'Ambulance,'Lansky'... and many others. 
+      <p>Our stunning genius in digital compositing, lighting  and filmmaking is the driving force behind this project. His excellent preparation can be found in such films as 'Being the Ricardos’ , 'Ambulance,'Lansky'... and many others. 
 Artist, Nature lover, friendly co-worker and creator of the 3D content. </p>
     </div>
   </div>

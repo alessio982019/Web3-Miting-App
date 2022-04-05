@@ -9,7 +9,7 @@ html{
 
   #home {
     background: url("./../images/Background-Mobile.png") ;
-   
+   overflow: visible;
     width: 100vw;
     background-size: 100vw;
     background-repeat: no-repeat;
@@ -74,7 +74,7 @@ ul img{
   height: 75px;
 }
 #faqs{
-  height: 100vh;
+  min-height: 100vh;
   background: linear-gradient(0deg, rgb(48, 149, 213) 20%, rgb(21, 21, 118) 80%);  ;
 }
 #license{
@@ -356,7 +356,7 @@ nav {
 
 }
 #slider img{
-  width: 10%;
+  width: 12.5%;
 }
 #team{
 
@@ -365,7 +365,7 @@ nav {
 .slider-left{
   display: flex;
   overflow-x: visible;
-  width: 200%;
+  width: 400%;
   animation: sliderLeft 15s linear infinite;
   right: 0%;
   position: relative;
@@ -378,16 +378,16 @@ nav {
 
 
   100%{
-      right: 100%
+      right: 400%
   }
 }
 
 .slider-right{
   display: flex;
   overflow-x: visible;
-  width: 200%;
+  width: 400%;
   animation: sliderRight 15s linear infinite;
-  left: -100%;
+  left: -400%;
   position: relative;
 }
 .slider-right img{
@@ -417,7 +417,7 @@ nav {
 }
 
 .second-team {
-  height: 100rem!important;
+  height: 110rem!important;
 }
 .flip-box div{
   margin:2rem 0rem;
@@ -695,7 +695,7 @@ margin-left: 0;
     }
     #greenMap{
       position:relative;
-      height: 200rem;
+      height: 220rem;
     }
     #cartoon p{
       font-size:15px;
@@ -712,6 +712,12 @@ margin-left: 0;
   }
 
 
+  @media only screen and (min-width: 545px) {
+    #team-container {
+      height: 160rem;
+    }
+
+  }
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
 
@@ -758,7 +764,10 @@ margin-left: 0;
         padding:12px;
       }
       #team-container{
-        padding:0rem 7.5rem
+        padding:0rem 7.5rem;
+       
+          height: 190rem;
+        
       }
       #team-container p{ 
         font-size: 20px;
@@ -784,7 +793,7 @@ margin-left: 0;
       }
 
       .second-team {
-        height: 110rem!important;
+        height: 130rem!important;
       }
 
 
@@ -801,7 +810,42 @@ margin-left: 0;
         
     }
       
-
+    .slider-left{
+      display: flex;
+      overflow-x: visible;
+      width: 350%;
+      animation: sliderLeft 15s linear infinite;
+      right: 0%;
+      position: relative;
+    }
+    .slider img{
+      width:21.875%;
+    }
+    
+    @keyframes sliderLeft {
+    
+    
+      100%{
+          right: 350%
+      }
+    }
+    
+    .slider-right{
+      display: flex;
+      overflow-x: visible;
+      width: 350%;
+      animation: sliderRight 15s linear infinite;
+      left: -350%;
+      position: relative;
+    }
+ 
+    @keyframes sliderRight {
+    
+    
+      100%{
+          left: 0%
+      }
+    }
 
   
 
@@ -809,6 +853,44 @@ margin-left: 0;
   
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
+    
+    .slider-left{
+      display: flex;
+      overflow-x: visible;
+      width: 300%;
+      animation: sliderLeft 15s linear infinite;
+      right: 0%;
+      position: relative;
+    }
+    .slider img{
+      width:18.75%;
+    }
+    
+    @keyframes sliderLeft {
+    
+    
+      100%{
+          right: 300%
+      }
+    }
+    
+    .slider-right{
+      display: flex;
+      overflow-x: visible;
+      width: 300%;
+      animation: sliderRight 15s linear infinite;
+      left: -300%;
+      position: relative;
+    }
+ 
+    @keyframes sliderRight {
+    
+    
+      100%{
+          left: 0%
+      }
+    }
+    
     #minting{   
       width: 75%;
     }
@@ -959,6 +1041,46 @@ margin-left: 0;
   
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
+
+    .slider-left{
+      display: flex;
+      overflow-x: visible;
+      width: 200%;
+      animation: sliderLeft 15s linear infinite;
+      right: 0%;
+      position: relative;
+    }
+    .slider img{
+      width:12.5%;
+    }
+    
+    @keyframes sliderLeft {
+    
+    
+      100%{
+          right: 200%
+      }
+    }
+    
+    .slider-right{
+      display: flex;
+      overflow-x: visible;
+      width: 200%;
+      animation: sliderRight 15s linear infinite;
+      left: -200%;
+      position: relative;
+    }
+ 
+    @keyframes sliderRight {
+    
+    
+      100%{
+          left: 0%
+      }
+    }
+
+
+
     .cartoon-par{
       display: table;
     }
@@ -997,7 +1119,7 @@ margin-left: 0;
       width: 100vw;
       background-size: 100vw;
       background-repeat: no-repeat;
-      min-height: calc(0.5625 * 100vw);
+      min-height: calc(0.5625 * 135vw);
     }
 
     .slider{
@@ -1012,7 +1134,7 @@ margin-left: 0;
 
       #about-text{
  
-        padding:0px 48px
+        
       }
 
       #about-3,#about-4{
@@ -1044,6 +1166,52 @@ margin-left: 0;
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
+
+    .slider-left{
+      display: flex;
+      overflow-x: visible;
+      width: 160%;
+      animation: sliderLeft 15s linear infinite;
+      right: 0%;
+      position: relative;
+    }
+    .slider img{
+      width:10%;
+    }
+    
+    @keyframes sliderLeft {
+    
+    
+      100%{
+          right: 160%
+      }
+    }
+    
+    .slider-right{
+      display: flex;
+      overflow-x: visible;
+      width: 160%;
+      animation: sliderRight 15s linear infinite;
+      left: -160%;
+      position: relative;
+    }
+ 
+    @keyframes sliderRight {
+    
+    
+      100%{
+          left: 0%
+      }
+    }
+
+
+
+    #home{
+      min-height: calc(0.5625 * 100vw);
+    }
+
+
+  
     #cartoon p{
 
       font-size:24px;
@@ -1063,7 +1231,7 @@ margin-left: 0;
     }
     #greenMap{
       position:relative;
-      height: 175rem;
+      height: 195rem;
     }
     .slider{
       width: 225px;
@@ -1077,7 +1245,7 @@ margin-left: 0;
 
       #about-text{
    
-        padding:0px 56px
+        
       }
 
       #about-text p {
@@ -1173,7 +1341,7 @@ margin-left: 0;
     }
     #greenMap{
       position:relative;
-      height: 170rem;
+      height: 190rem;
     }
     #map h1 {
       padding: 10rem 0rem;
@@ -1203,7 +1371,7 @@ margin-left: 0;
     }
 
     #about-text{
-      padding:0px 76px
+     
     }
 
     #about-3{
