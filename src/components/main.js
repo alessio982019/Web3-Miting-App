@@ -1,5 +1,4 @@
 import React, { useEffect, useState, useRef } from "react";
-
 import './../styles//App.css'
 import Nav from './nav.js'
 import Home from './home.js'
@@ -16,20 +15,13 @@ import AboutNew from './new_about.js'
 import * as s from './../styles/globalStyles.js'
 import Footer from "./footer.js";
 import Opensea from "./opensea.js";
-
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
-
-
 function Main() {
   
-
   return (
-
     
-
     <div className="main-container">
-
       <Home/>
       <s.SpacerXXXL></s.SpacerXXXL>
       
@@ -38,30 +30,19 @@ function Main() {
       <s.SpacerXXXL></s.SpacerXXXL>
       <Team/>
       <Genesis/>
-
-
    
       <s.SpacerXXL></s.SpacerXXL>
-
       <s.SpacerXXXL></s.SpacerXXXL>
     <Slider/>
-
     <s.SpacerXXXL></s.SpacerXXXL>
   
     {/* <Opensea></Opensea> */}
-
-
    
     
     
     <GreenMap/>
 <Footer></Footer>
-
     </div>
-
-
-
   );
 }
-
 export default Main;

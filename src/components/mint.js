@@ -6,7 +6,6 @@ import { connect }  from './../redux/blockchain/blockchainActions';
 import { fetchData } from "./../redux/data/dataActions";
 import Instagram from './../images/icons8-instagram-48.png'
 function Mint(){
-
     const dispatch = useDispatch();
     const [isWhiteListed,setIsWhiteListed] = useState('test')
     const blockchain = useSelector((state) => state.blockchain);
@@ -32,13 +31,8 @@ function Mint(){
       MARKETPLACE_LINK: "",
       SHOW_BACKGROUND: false,
     });
-
-
     const checkWhiteList = () => {
-
       console.log("Checking white listed users...");
-
-
       blockchain.smartContract.functions.isWhiteListed(blockchain.account).send(
         {
           from: blockchain.account
@@ -125,53 +119,30 @@ function Mint(){
       getData();
     }, [blockchain.account]);
   
-
-
     return(
         
         <div className="section justify-content-center text-center position-relative px-2 mx-1" >
-
-
-
-
           <div className="" id = 'minting'>
            
   
 <h1>Pumpkins are not on sale yet!</h1>
-
 <h3>Keep yourself up to date by following us on our social channels:</h3>
-
       <s.SpacerLarge></s.SpacerLarge>
-
       <div className="d-flex justify-content-around">
       <a  href="https://twitter.com/GGP_NFT" target="_blank"> <img src="https://img.icons8.com/color/48/000000/twitter--v1.png"/></a>
  
-
   
  <a  href="" target="_blank"><img src="https://img.icons8.com/doodle/48/000000/discord-logo.png"/></a>
-
-
  <a  href="https://instagram.com/greengangpumpkins?utm_medium=copy_link" target="_blank"><img src={Instagram}/></a>
-
-
-
       </div>
-
-
     
         <s.SpacerMedium></s.SpacerMedium>
-
       <s.SpacerSmall></s.SpacerSmall>
-
-
-
-
       {/* {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
                 <>
                 <h1 id='soldout-text'style={{ textAlign: "center", color: "var(--accent-text)" }}>
                   SOLD OUT!
                 </h1>
-
                 <s.SpacerSmall />
                
               </>
@@ -183,24 +154,18 @@ function Mint(){
                   
        
                 </h3>
-
                 <s.SpacerXSmall />
-
                 <h3
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
                  
                 </h3>
-
-
                 <s.SpacerSmall></s.SpacerSmall>
                 <s.SpacerSmall />
-
                 {blockchain.account === "" ||  blockchain.smartContract === null ? (
                   <s.Container ai={"center"} jc={"center"}>
                
                     <s.SpacerSmall />
-
                     <button type="button" class="btn btn-outline-light"
                     onClick={(e) => {
                         e.preventDefault();
@@ -235,7 +200,6 @@ function Mint(){
                       {feedback}
                     </h5>
                     <s.SpacerMedium />
-
                     <s.Container ai={"center"} jc={"center"} fd={"row"}>
                     <button type="button" class="btn btn-outline-light"
                         
@@ -245,7 +209,6 @@ function Mint(){
                           decrementMintAmount();
                         }}
                       >-
-
                         
                       </button>
                       
@@ -290,14 +253,8 @@ function Mint(){
                 )}
               </>
             )} */}
-
-
 </div>
-
 </div>
-
-
     )
 }
-
 export default Mint;

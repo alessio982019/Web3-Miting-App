@@ -1,9 +1,7 @@
 import React  from "react";
 import '../styles/App.css';
 import * as s from "./../styles/globalStyles";
-
 function Opensea(){
-
     return(
         <div className="text-center" id="opensea">
             
@@ -14,13 +12,7 @@ function Opensea(){
         height='100%'
         frameborder='0'
         allowfullscreen></iframe>
-
-
-
-
         </div>
-
     )
 }
-
 export default Opensea;

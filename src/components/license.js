@@ -1,65 +1,35 @@
 import React  from "react";
 import '../styles/App.css';
 import * as s from "./../styles/globalStyles";
-
-
 function Cartoon(){
-
     return(
         <div className="   " id="license">
-
-
-
-
     
-
 <div className="w-75 text-center mx-auto">
-
-
 {/* <h1>LICENSE</h1>
      */}
     <s.SpacerLarge></s.SpacerLarge>
-
-
 <ul>
-
      <li>1</li>
-
-
 </ul>
-
 <h1>DEFINITIONS</h1>
 <p>
-
-
 “Art” means any art, design, and drawings that may be associated with an
-
 NFT that you Own.
-
 &quot;NFT&quot; means any blockchain-tracked, non-fungible token, such as those
-
 conforming to the ERC-721 standard.
-
 “Own” means, with respect to an NFT, an NFT that you have purchased or
 otherwise rightfully acquired from a legitimate source, where proof of such
-
 purchase is recorded on the relevant blockchain.
-
 “Extensions” means third party designs that: (i) are intended for use as
 extensions or overlays to the Art, (ii) do not modify the underlying Art, and (iii)
 can be removed at any time without affecting the underlying Art.
-
 “Purchased NFT” means an NFT that you Own.
-
 “Third Party IP” means any third party patent rights (including, without
 limitation, patent applications and disclosures), copyrights, trade secrets,
 trademarks, know-how or any other intellectual property rights recognized in
-
 any country or jurisdiction in the world.
 </p>
-
-
-
 <h1>OWNERSHIP</h1>
 <p>
 You acknowledge and agree that &quot;GreenGangPumpkins&quot; (or, if applicable, its
@@ -83,9 +53,7 @@ cryptographically verifies each NFT owner’s rights to display the Art for thei
 Purchased NFTs to ensure that only the actual owner can display the Art, and
 provided that the Art is no longer visible once the owner of the Purchased NFT leaves the website/application.
 </p>
-
 <h1>Commercial Use</h1>
-
 <p>
 Subject to your continued compliance with the terms of
 this License, &quot;GreenGangPumpkins&quot; grants you a limited, worldwide, non-
@@ -104,19 +72,13 @@ inclusion, involvement, or participation of NFTs generally, provided that the
 third party website or application cryptographically verifies each NFT owner’s
 rights to display the Art for their Purchased NFTs to ensure that only the
 actual owner can display the Art, and provided that the Art is no longer visible
-
 once the owner of the
-
 Purchased NFT leaves the website/application; or (iii) earning revenue from
 any of the foregoing, even where such revenue is in excess of $100,000 per
-
 year.
 </p>
-
 <h1>RESTRICTIONS</h1>
-
 <p>
-
 You agree that you may not, nor permit any third party to do or attempt to do
 any of the foregoing without &quot;GreenGangPumpkins&quot; express prior written
 consent in each case: (i) modify the Art for your Purchased NFT in any way,
@@ -136,7 +98,6 @@ otherwise commercialize merchandise that includes, contains, or consists of
 the Art for your Purchased NFTs, except as expressly permitted in Section
 3(b) above; (vi) attempt to trademark, copyright, or otherwise acquire
 additional intellectual property rights in or to the Art for your Purchased NFTs;
-
 or (vii) otherwise utilize the Art for your Purchased NFTs for your or any third
 party’s commercial benefit. To the extent that Art associated with your
 Purchased NFTs contains Third Party IP (e.g., licensed intellectual property
@@ -151,11 +112,8 @@ extent that &quot;GreenGangPumpkins&quot; informs you of such additional restric
 in writing (email is permissible), you will be responsible for complying with all
 such restrictions from the date that you receive the notice, and that failure to
 do so will be deemed a breach of this license. The restriction in Section 4 will
-
 survive the expiration or termination of this License.
 </p>
-
-
 <h1>TERMS OF LICENSE</h1>
 <p>
 The license granted in Section 3 above applies only to the extent that you
@@ -179,37 +137,21 @@ law or in equity, &quot;GreenGangPumpkins&quot; may immediately terminate this
 License, without the requirement of notice; and (iii) you will be responsible to
 reimburse &quot;GreenGangPumpkins&quot; for any costs and expenses incurred by
 &quot;GreenGangPumpkins&quot; during the course of enforcing the terms of this
-
 License against you.
-
 </p>
-
 <h1>GOVERNING LAW</h1>
-
-
 <p>
 If any provision in this License shall be held to be illegal, invalid or
 unenforceable, in whole or in part, the provision shall apply with whatever
 deletion or modification is necessary so that the provision is legal, valid and
-
 enforceable and gives effect to the initial intention of the parties. The validity
 of this License and any of its terms and provisions, as well as the rights and
 duties of parties hereunder, shall be governed, interpreted and enforced in
-
 accordance with the laws of Italy.
-
 </p>
-
-
-
    
-
 </div>
-
-
         </div>
-
     )
 }
-
 export default Cartoon;

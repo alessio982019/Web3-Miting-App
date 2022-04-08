@@ -1,7 +1,6 @@
 import React  from "react";
 import '../styles/App.css';
 import * as s from "./../styles/globalStyles";
-
 import Nft1 from './../images/Slider/1.png'
 import Nft2 from './../images/Slider/2.png'
 import Nft3 from './../images/Slider/3.png'
@@ -18,23 +17,12 @@ import Nft13 from './../images/Slider/13.png'
 import Nft14 from './../images/Slider/4.png'
 import Nft15 from './../images/Slider/12.png'
 import Nft16 from './../images/Slider/9.png'
-
-
-
 function Slider(){
-
-
-
     return(
-
         <div className="w-100 " id='slider'>
-
             <div id="slider-shower">
-
             </div>
             <div className="position-relative">
-
-
           
             {/* <s.SpacerXXL />
             <s.SpacerXXL /> */}
@@ -61,7 +49,6 @@ function Slider(){
                  
             </div>
             
-
             <div class="slider-right">
             
             <img src={Nft1} alt="" />
@@ -84,14 +71,9 @@ function Slider(){
                     
      
 </div>
-
 </div>
-
-
-
            
         </div>
     )
 }
-
 export default Slider;

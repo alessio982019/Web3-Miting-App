@@ -1,23 +1,11 @@
 import React  from "react";
 import '../styles/App.css';
 import * as s from "./../styles/globalStyles";
-
 import green_img from './../images/Greenmap1929X21604.png'
 import Slide from 'react-reveal/Slide';
 function GreenMap(){
-
     return(
         <div className=" w-100 position-relative" id="greenMap">
-
-
-
-       
-
-    
-
-            
-
-
              <div className="  position-relative justify-content-center" id='map'> 
              <h1 className="text-center">GREENMAP</h1>
             
@@ -36,9 +24,7 @@ function GreenMap(){
                             </li>
                         </ul>
                     
-
                     </p>
-
                 </div>
                 </Slide>
                 <Slide right>
@@ -48,7 +34,6 @@ function GreenMap(){
                 
                     
                     <p className="text-start">
-
                     This company already collaborates with realities such as Berlucchi, Timberland, Samsung, H&M… Their transparency in photographing and geolocating each tree planted reflects our green philosophy. Let's create our own GGP forest guys! We finance farmers who want to plant trees. Farmers receive from Treedom the know-how and technical support .We will donate 10k euros to plant trees in the world, giving life to this awesome goal and we will monitor the results together, feeling active in the community. 
                     
                     </p>
@@ -67,11 +52,9 @@ function GreenMap(){
                             <li>Social expansion through festivals, finalization of the comic book campaign.</li>
                             
                             <li>Let's brighten our family's spirit through more social media contests. </li>
-
                         </ul>
              
                     </p>
-
                 </div>
                 </Slide>
                 <Slide right>
@@ -87,7 +70,6 @@ function GreenMap(){
                             <li>Airdrop of  Nfts and prizes in Eth. via storytelling challenges. </li>
                             
                             <li>Supporting the best projects, carried out by holders, that have an environmental background. </li>
-
                         </ul>
                     </p>
                 </div>
@@ -99,17 +81,14 @@ function GreenMap(){
                     <p>
                     <ul className="text-start">
                     <li>During the trek...some pumpkins develop a sense of rejection of good intentions. A new battle is upon us: We need the right armor to restore balance: Merchandising Development!</li>
-
                             <li>
                             Unbelievable partnership with a 3-time Oscar winner for "Apocalypse now", "Reds" and "The Last Emperor".  Are you curious about the benefits to GGP holders, resulting from the collaboration? Two great prizes will be dedicated to our family! 
 What will it be? Who will be the Artist? Follow us on the main social.
                             </li>
                             
                          
-
                         </ul>
                     </p>
-
                 </div>
                 </Slide>
                 <Slide right>
@@ -134,7 +113,6 @@ What will it be? Who will be the Artist? Follow us on the main social.
                             <li>
                             We need a secret greenhouse where we can prepare a countermove, expand our knowledge, collaborate, all together.... Can you imagine what it would be like to host experts in the metaverse?
                             </li>
-
                         </ul>
                     </p>
                 </div>
@@ -145,25 +123,19 @@ What will it be? Who will be the Artist? Follow us on the main social.
                     <h3>SEASON II</h3>
                     <p>
                     A wise old uncle would say: with great power comes great responsibility... After much effort, it's time to preserve the work you've done!!.. But wait...Have you thought about what the Forces of Nature look like?..That's all we can say...
-
                     </p>
                 </div>
                 </Slide>
      
             
-
            
             </div>
-
-
             
             <div>
                 <img src={green_img} className = '' alt="" />
             </div>
             </div>
  
-
     )
 }
-
 export default GreenMap;
