@@ -88,7 +88,11 @@ ul img{
 }
 #faqs{
   min-height: 100vh;
-  background: linear-gradient(0deg, rgb(48, 149, 213) 20%, rgb(21, 21, 118) 80%);  ;
+  background-color: #9217d0;
+}
+#faqs h5{
+  background-color: #9217d0;
+  -webkit-text-stroke: thick;
 }
 #license{
   padding-top: 10rem;
@@ -454,7 +458,7 @@ nav {
   width: 100%;
   height: auto;
   text-align: center;
-  
+  -moz-backface-visibility: hidden;
   
 }
 
