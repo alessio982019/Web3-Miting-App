@@ -7,7 +7,7 @@ function Footer(){
         <small>
          <Link to='/license'>
         
-          @2022 Copyright
+         Ⓒ2022 Copyright
        
         </Link>
         </small>

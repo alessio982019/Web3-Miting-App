@@ -129,11 +129,24 @@ function Mint(){
 <h3>Keep yourself up to date by following us on our social channels:</h3>
       <s.SpacerLarge></s.SpacerLarge>
       <div className="d-flex justify-content-around">
-      <a  href="https://twitter.com/GGP_NFT" target="_blank"> <img src="https://img.icons8.com/color/48/000000/twitter--v1.png"/></a>
+        
+      <a href="https://twitter.com/GGP_NFT" id='btn-twitter' target="_blank" className="btn"><img src="https://img.icons8.com/color/48/000000/twitter--v1.png"/>Follow</a>
+        
+        
+      <a className="btn " href="https://instagram.com/greengangpumpkins?utm_medium=copy_link" id='btn-instagram' target="_blank"><img src={Instagram}/>Instagram</a>
+
+
+      <a className="btn" id='btn-discord' target="_blank"><img src="https://img.icons8.com/doodle/48/000000/discord-logo.png"/>Discord</a>
+     
+     
+        {/* <a  href="https://twitter.com/GGP_NFT" target="_blank"> <img src="https://img.icons8.com/color/48/000000/twitter--v1.png"/></a>
  
   
- <a  href="" target="_blank"><img src="https://img.icons8.com/doodle/48/000000/discord-logo.png"/></a>
- <a  href="https://instagram.com/greengangpumpkins?utm_medium=copy_link" target="_blank"><img src={Instagram}/></a>
+      <a  href="" target="_blank"><img src="https://img.icons8.com/doodle/48/000000/discord-logo.png"/></a>
+      <a  href="https://instagram.com/greengangpumpkins?utm_medium=copy_link" target="_blank"><img src={Instagram}/></a>
+  
+       */}
+      
       </div>
     
         <s.SpacerMedium></s.SpacerMedium>

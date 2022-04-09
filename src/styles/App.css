@@ -34,25 +34,65 @@ html{
   display: flex;
   justify-content: center;
   align-items: center;
-
+  animation-name: hide-loaging;
+  animation-duration: 4.5s;
   
 }
+.btn-twitter {
+  background: #00ACEE;
+  border-radius: 0;
+  color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #0075a2;
+}
+.btn-twitter:link, .btn-twitter:visited {
+  color: #fff; 
+}
+.btn-twitter:active, .btn-twitter:hover {
+  background: #0075a2;
+  color: #fff; 
+}
+
+@keyframes hide-loaging {
+  0%{
+    opacity: 100%;
+
+  }
+
+  33%{
+    opacity: 100%;
+  }
+  66%{
+    opacity: 50%;
+  }
+
+  100%{
+    opacity: 0%;
+
+  }
+}
+
+
+
 nav a{
     padding: .0rem!important;
     font-size: .9rem;
     color: rgb(255, 255, 255)!important;
     font-family: 'Luckiest Guy', cursive;
     /* padding:.5rem .75rem!important; */
+    
 }
 
 h3{
   color: rgb(255, 255, 255)!important;
 }
 #minting a{
-  width: 48px!important;
+  /* width: 48px!important; */
 }
 #minting img{
-  width: 64px!important;
+  width: 48px!important;
+  margin-right: 1rem;
 }
 #navbarNav{
   border-radius: 25px;
@@ -65,6 +105,8 @@ nav{
   padding: 1rem 0rem!important;
 
 }
+
+
 
 nav ul{
   
@@ -162,14 +204,30 @@ a{
 
 }
 
-#minting button{
+#minting a{
   border-radius: 1.5rem;
-  padding:0.5rem 4rem!important
+  padding:0.2rem 1rem!important;
+  background-color: white;
+  border-style: none;
+  box-shadow: 0px 0px 15px 8px rgb(255, 255, 255);
+  color: black;
 }
 
-#minting a{
-  color: #ff6000!important;
+#btn-twitter:hover{
+  box-shadow: 0px 0px 25px 15px rgb(3, 169, 243);
 }
+
+#btn-instagram:hover{
+  box-shadow: 0px 0px 25px 15px rgb(190, 71, 11);
+}
+
+#btn-discord:hover{
+  box-shadow: 0px 0px 25px 15px rgb(115, 69, 129);
+  
+}
+/* #minting a{
+  color: #ff6000!important;
+} */
 
 
 
@@ -248,8 +306,11 @@ p{
   pointer-events: none;
 }
 .main-container{
- 
-  background: linear-gradient(0deg, rgb(48, 149, 213) 20%, rgb(21, 21, 118) 80%);  
+  /* background: rgb(33,177,194);
+  background: linear-gradient(0deg, rgba(33,177,194,1) 0%, rgba(122,33,194,1) 25%, rgba(122,33,194,1) 78%, rgba(34,34,200,1) 100%); */
+
+  
+  background: linear-gradient(0deg, rgb(33,177,194) 20%, rgb(30, 46, 127) 80%);  
     
     width: 100%;
     height: auto;
