@@ -374,6 +374,7 @@ nav {
 }
 #slider img{
   width: 12.5%;
+  flex-shrink: 0;
 }
 #team{
 
