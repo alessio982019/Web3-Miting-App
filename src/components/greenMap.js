@@ -118,11 +118,12 @@ What will it be? Who will be the Artist? Follow us on the main social.
                 </div>
                 </Slide>
                 <Slide left>
+                    
                 <div className=" px-1 pt-5" id='season-two'>
                     
                     <h3>SEASON II</h3>
                     <p>
-                    A wise old uncle would say: with great power comes great responsibility... After much effort, it's time to preserve the work you've done!!.. But wait...Have you thought about what the Forces of Nature look like?..That's all we can say...
+                    A wise old uncle would say: with great power comes great responsibility.... After much effort, it's time to preserve the work we've done!...It's time to create a WELL-STRUCTURED ECOSYSTEM THAT SUPPORTS "GAME AND EARNINGS.."
                     </p>
                 </div>
                 </Slide>

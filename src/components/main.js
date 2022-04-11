@@ -14,6 +14,7 @@ import FOoter from './footer.js'
 import AboutNew from './new_about.js'
 import * as s from './../styles/globalStyles.js'
 import Footer from "./footer.js";
+import Team2 from './team2'
 import Opensea from "./opensea.js";
 import RingLoader from 'react-spinners/RingLoader';
 const truncate = (input, len) =>
@@ -59,6 +60,8 @@ function Main() {
                   <AboutNew/>
                   <s.SpacerXXXL></s.SpacerXXXL>
                   <Team/>
+
+               
                   <Genesis/>
               
                   <s.SpacerXXL></s.SpacerXXL>

@@ -15,7 +15,7 @@ function Nav(){
   
   </a>
   <a class="navbar-brand " href="#" id='logo-title'>
-  GreenGang Pumpkins
+  Green Gang Pumpkins
   </a>
   
     

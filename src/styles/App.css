@@ -6,7 +6,6 @@
 html{
   overflow-x: hidden;
 }
-
   #home {
     background: url("./../images/Background-Mobile.png") ;
    overflow: visible;
@@ -19,13 +18,10 @@ html{
     display: inline-block;
     position: relative;
   }
-
 .container-fluid{
   padding-right: 0!important;
   padding-left:  0!important;
 }
-
-
 .loading-screen{
   width: 100%;
   height: 100vh;
@@ -53,43 +49,31 @@ html{
   background: #0075a2;
   color: #fff; 
 }
-
 @keyframes hide-loaging {
   0%{
     opacity: 100%;
-
   }
-
   33%{
     opacity: 100%;
   }
   66%{
     opacity: 50%;
   }
-
   100%{
     opacity: 0%;
-
   }
 }
-
-
-
 nav a{
     padding: .0rem!important;
     font-size: .9rem;
     color: rgb(255, 255, 255)!important;
     font-family: 'Luckiest Guy', cursive;
-    /* padding:.5rem .75rem!important; */
     
 }
-
 h3{
   color: rgb(255, 255, 255)!important;
 }
-#minting a{
-  /* width: 48px!important; */
-}
+
 #minting img{
   width: 48px!important;
   margin-right: 1rem;
@@ -103,24 +87,18 @@ nav btn{
 }
 nav{
   padding: 1rem 0rem!important;
-
 }
-
-
-
 nav ul{
   
 }
 a{
   text-decoration: none!important;
 }
-
 #logo-title{
   visibility: hidden;
   color: #ff6000!important;
   font-size: 0rem;
 }
-
 ul img{
   width: 36px;
 }
@@ -153,19 +131,6 @@ ul li{
   background-color: #000000;
   z-index: 20;
 }
-
-
-/* #minting{
-  background-color: rgba(17, 15, 15, 0.446);
-  padding:1rem;
-  padding: 5rem 3rem;
-  border-radius: 150px;
-  transform: translateY(50%);
-  left: 2%;
-
-
-} */
-
 a{
   letter-spacing: 5px;
 }
@@ -176,7 +141,6 @@ a{
     overflow-x:hidden;
   
   } 
-
   h1{
     font-family: 'Luckiest Guy', cursive;
   }
@@ -199,79 +163,51 @@ a{
   padding:1rem;
   padding: 2rem 2rem!important;
   border-radius: 75px;
-  transform: translateY(120%);
+  transform: translateY(70%);
   width: 100%;
-
 }
-
 #minting a{
-  border-radius: 1.5rem;
+  border-radius: 1.5rem;  
   padding:0.2rem 1rem!important;
   background-color: white;
   border-style: none;
   box-shadow: 0px 0px 15px 8px rgb(255, 255, 255);
   color: black;
+  width: 100%;
+  margin: .5rem 0rem;
 }
-
 #btn-twitter:hover{
   box-shadow: 0px 0px 25px 15px rgb(3, 169, 243);
 }
-
 #btn-instagram:hover{
   box-shadow: 0px 0px 25px 15px rgb(190, 71, 11);
 }
-
 #btn-discord:hover{
   box-shadow: 0px 0px 25px 15px rgb(115, 69, 129);
   
 }
-/* #minting a{
-  color: #ff6000!important;
-} */
-
-
 
 
   
-@keyframes pulsate {
-  0%{
-    opacity: 0.2;
-    font-size: 2rem;
-  }
-  
-  50%{
-    opacity: 1;
-    font-size: 4rem;
-  }
-  
-  100%{
-    opacity: 0.2;
-    font-size: 2rem;
-  }
-}
+
 #soldout-text{
   animation: pulsate 1s ease-out  infinite;
   font-size: 2rem;
  
   opacity: 0.2;
 }
-
   #about p{
-
     border-radius: 15px;
     padding:12px;
   }
 .z-10{
   z-index: 10;
 }
-
 #about-text{
   background-color: #000000c9;
   height: 100%;
   
 }
-
-
 #genesis p{
   line-height: 50px;
   border: solid;
@@ -283,18 +219,11 @@ a{
 .row>* {
   padding:0!important
 }
-
 p{
-
   font-size: 14px;
   color: white;
   padding:12px;
-
-
 }
-
-
-
 
   .video-fluid {
     
@@ -306,18 +235,12 @@ p{
   pointer-events: none;
 }
 .main-container{
-  /* background: rgb(33,177,194);
-  background: linear-gradient(0deg, rgba(33,177,194,1) 0%, rgba(122,33,194,1) 25%, rgba(122,33,194,1) 78%, rgba(34,34,200,1) 100%); */
-
+   background: linear-gradient(0deg, rgb(33,177,194) 20%, rgb(30, 46, 127) 80%);  
+   width: 100%;
+   height: auto;
+   position: relative;
+   background-repeat: no-repeat;
   
-  background: linear-gradient(0deg, rgb(33,177,194) 20%, rgb(30, 46, 127) 80%);  
-    
-    width: 100%;
-    height: auto;
-    position: relative;
- 
-    background-repeat: no-repeat;
-    
     background-position: center top;
 }
 nav {
@@ -325,10 +248,7 @@ nav {
   position:fixed!important;
   z-index: 20;
   width: 100vw;
-
 }
-
-
 #about{
   height: 100%;
   overflow-x: hidden;
@@ -343,7 +263,6 @@ nav {
   /* bottom: -50%; */
   margin: 10px;
 }
-
 #about h1{
   margin:5rem 0rem;
 }
@@ -355,11 +274,7 @@ nav {
   color: white;
   padding: 10px 200px;
 }
-
-
-
-.slider-cont{
-  
+.slider-cont{  
   position: relative;
   margin-top: 100px;
   height: 450px;
@@ -375,18 +290,15 @@ nav {
   height: 100px;
   transform-style: preserve-3d;
   animation: rotate 15s linear infinite
-
 }
 @keyframes rotate {
   0%{
       transform: perspective(2000px) rotateY(0deg);
   }
-
   100%{
       transform: perspective(2000px) rotateY(360deg);
   }
 }
-
 .slider span{
   position: absolute;
   top: 0;
@@ -397,7 +309,6 @@ nav {
   transform-style: preserve-3d;
   transform: rotateY(calc(var(--i)*45deg)) translateZ(200px);
   }
-
 .slider span img{
   box-shadow: 0px 0px 40px 1px #0ff;
   position:absolute;
@@ -409,12 +320,9 @@ nav {
   object-fit: cover;
   transition: 1s
 }
-
 .slider span:hover img{
   transform: translateY(-50px) scale(1.2);
 }
-
-
 #genesis video{
   width: 100%;
   box-shadow: 0px 0px 100px 50px #0ff;
@@ -425,22 +333,17 @@ nav {
   margin: 2rem 0rem;
 }
 #vision{
-
 }
-
 #vision p{
   line-height: 50px;
   font-size: 25px;
-
 }
 #slider img{
   width: 12.5%;
   flex-shrink: 0;
 }
 #team{
-
 }
-
 .slider-left{
   display: flex;
   overflow-x: visible;
@@ -452,15 +355,11 @@ nav {
 .slider-left img{
   width:7.5%;
 }
-
 @keyframes sliderLeft {
-
-
   100%{
       right: 400%
   }
 }
-
 .slider-right{
   display: flex;
   overflow-x: visible;
@@ -472,11 +371,7 @@ nav {
 .slider-right img{
   width: 7.5%;
 }
-
-
 @keyframes sliderRight {
-
-
   100%{
       left: 0%
   }
@@ -487,14 +382,10 @@ nav {
 .flip-invisible{
   opacity: 0;
 }
-
-
 #team-container{
   
   height: 150rem
-
 }
-
 .second-team {
   height: 110rem!important;
 }
@@ -509,8 +400,6 @@ nav {
   
   
 }
-
-
 #genesis{
   padding:0rem .5rem
 }
@@ -523,8 +412,6 @@ nav {
   -moz-backface-visibility: hidden;
   
 }
-
-
 /* Position the front and back side */
 .flip-box-front, .flip-box-back {
   position: relative;
@@ -532,14 +419,12 @@ nav {
   height: auto;
   
 }
-
 /* Style the front side (fallback if image is missing) */
 .flip-box-front {
   box-shadow: 0px 0px 100px 15px #0ff;
   color: black;
   
 }
-
 .flip-box img{
   width: 100%;
 }
@@ -553,12 +438,10 @@ nav {
   padding:1rem
 }
 #cartoon{
-
   background: black;
   min-height: 100vh;
  
 }
-
 #cartoon p{
   display: table-cell;
   vertical-align: middle;
@@ -567,7 +450,6 @@ nav {
   text-align: center;
   padding: 0 !important;
 }
-
 #cartoon img{
   
   padding-bottom: 16px;
@@ -575,9 +457,6 @@ nav {
 #cartoon h1{
   color: #ff6000!important;
 }
-
-
-
 
 #team p{
   font-size: 15px;
@@ -591,22 +470,16 @@ nav {
   width: 100%;
   box-shadow: 0px 0px 100px 15px #0ff;
 }
-
-
-
 .float-right{
   float: right;
 }
-
 .float-left{
   float: left;
 }
-
 .align-right{
   margin-left: auto; 
 margin-right: 0;
 }
-
 .align-left{
   margin-right: auto; 
 margin-left: 0;
@@ -614,12 +487,10 @@ margin-left: 0;
 #faqs{
   
 }
-
 .land-img{
   position: relative;
     
 }
-
 #footer{
   text-align: center;
   background-color: #BC7E5E;
@@ -629,28 +500,21 @@ margin-left: 0;
   
   
 }
-
-
 #opensea{
   height: 100vh;
 }
-
 #license p{
   font-size: 16px;
 }
 #footer small{
   font-size: 12px!important;
 }
-
 #footer li{
   list-style: none;
 }
-
 #footer a{
   color: black!important;
 }
-
-
 @keyframes App-logo-spin {
     from {
       transform: translateX(-100%);
@@ -659,8 +523,6 @@ margin-left: 0;
       transform: translateX(200%);
     }
   }
-
-
 #map{
   padding-top: 5rem;
   bottom:0
@@ -680,11 +542,7 @@ margin-left: 0;
     left: 50%;
     /* top: 50%; */
     -webkit-transform: translateX(-50%);
-
 }
-
-
-
 #map div{
   background-color: rgba(0, 0, 0, 0.385);
   text-align: center;
@@ -695,11 +553,9 @@ margin-left: 0;
   transition: transform .2s ;
   margin: 0rem 5%
 }
-
 #map div:hover{
   transform: scale(1.1);
 }
-
 #map h3{
   font-size: 20px!important;
   color: white;
@@ -709,30 +565,20 @@ margin-left: 0;
   font-family: var(--bs-body-font-family);
   line-height: 25px;
   padding:24px;
-
 }
 .ml-auto{
   margin-left: auto;
 }
-
 .mr-auto{
   margin-right: auto;
 }
-
-
-
 #season-two{
   
-
  margin-top:10rem;
 }
-
-
-
 .collapsible{
   text-align: start;
 }
-
 .content{
   transform: linear 2s;
   
@@ -740,18 +586,13 @@ margin-left: 0;
 #map h1{
   padding:5rem 0rem
 }
-
-
 #slider{
-
   box-shadow: 0px 0px 100px 30px #000000; 
 }
-
 #about-4{
   height: 0;
   visibility: hidden;
 }
-
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (min-width: 450px) {
     #about-text p{
@@ -762,7 +603,6 @@ margin-left: 0;
     p{
     
       font-size: 18px;
-
     }
     #team-container{
       padding:0rem 5rem
@@ -774,7 +614,7 @@ margin-left: 0;
     }
     #greenMap{
       position:relative;
-      height: 220rem;
+      height: 240rem;
     }
     #cartoon p{
       font-size:15px;
@@ -787,20 +627,22 @@ margin-left: 0;
       
       padding-bottom: 28px;
     }
-
   }
-
-
   @media only screen and (min-width: 545px) {
     #team-container {
       height: 160rem;
     }
+    #mint-links{
+      display: flex;
+    }
 
+    #minting a {
+      width: 100%;
+      margin: .5rem .7rem;
+  }
   }
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
-
-
   }
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -808,9 +650,11 @@ margin-left: 0;
     #cartoon p{
       font-size:20px;
       line-height: 22px;
-
     }
-    
+    #greenMap{
+      position:relative;
+      height: 217rem;
+    }
     #cartoon img{
       
       padding-bottom: 36px;
@@ -836,9 +680,7 @@ margin-left: 0;
       transform: rotateY(calc(var(--i)*45deg)) translateZ(calc(300px));
       }
   
-
       #about p{
-
        
         padding:12px;
       }
@@ -861,25 +703,18 @@ margin-left: 0;
         width: 50%;
       }
       .member-front{
-
       }
       .member-back{
-
       }
       .member img{
         width: 100%;
         box-shadow: 0px 0px 100px 15px #0ff;
       }
-
       .second-team {
         height: 130rem!important;
       }
-
-
       #map div{
-
         width: 80%;
-
         margin: 0rem 10%
       }
       
@@ -925,9 +760,7 @@ margin-left: 0;
           left: 0%
       }
     }
-
   
-
   }
   
   /* Medium devices (landscape tablets, 768px and up) */
@@ -981,10 +814,7 @@ margin-left: 0;
     p{
     
       font-size: 20px;
-
     }
-
-
     .slider{
       width: 175px;
       height: 175px;
@@ -995,15 +825,12 @@ margin-left: 0;
       transform: rotateY(calc(var(--i)*45deg)) translateZ(calc(350px));
       }
       #about-text{
-
        
       }
-
       #about-5,#about-4,#about-3{
         visibility: hidden;
         position: absolute;
       }
-
       #team-container{
         display: flex;
         height: 30rem;
@@ -1074,12 +901,9 @@ margin-left: 0;
         /* box-shadow: 0px 0px 100px 15px #0ff; */
         padding:1rem
       }
-
-
       .second-team {
         height: 30rem!important;
     }
-
     #genesis p{
       font-size: 14px;
       line-height: 32px;
@@ -1088,7 +912,6 @@ margin-left: 0;
     #genesis{
       padding:0rem 1rem
     }
-
     .mr-auto {
       margin-right: auto!important;
   }
@@ -1096,21 +919,16 @@ margin-left: 0;
     margin-left: auto!important;
 }
     #map div{
-
       width: 60%;
-
       
     }
-
     #greenMap{
       position:relative;
-      height: 210rem;
+      height: 235rem;
     }
-
     #map h1 {
       padding: 10rem 0rem;
   }
-
   h1 {
     font-size: 2.75rem;
     color: white;
@@ -1120,7 +938,6 @@ margin-left: 0;
   
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
-
     .slider-left{
       display: flex;
       overflow-x: visible;
@@ -1157,17 +974,12 @@ margin-left: 0;
           left: 0%
       }
     }
-
-
-
     .cartoon-par{
       display: table;
     }
     #cartoon p{
-
       font-size:22px;
       line-height: 28px;
-
       padding: 2rem 1rem !important;
     }
     
@@ -1183,7 +995,7 @@ margin-left: 0;
     }
     #greenMap{
       position:relative;
-      height: 175rem;
+      height: 205rem;
     }
     h1{
       font-size: 3rem;
@@ -1194,13 +1006,11 @@ margin-left: 0;
   
     #home {
       background: url("./../images/HomePage_Img.png") ;
-      overflow: hidden;
       width: 100vw;
       background-size: 100vw;
       background-repeat: no-repeat;
       min-height: calc(0.5625 * 135vw);
     }
-
     .slider{
       width: 200px;
       height: 200px;
@@ -1210,42 +1020,35 @@ margin-left: 0;
   
       transform: rotateY(calc(var(--i)*45deg)) translateZ(calc(400px));
       }
-
       #about-text{
  
         
       }
-
       #about-3,#about-4{
         visibility: visible;
         position: relative;
         height: 100%;
       }
-
      
       .flip-box img{
         width: 240px     
       }
-
       #genesis p{
         font-size: 16px;
         line-height: 30px;
         margin: 1rem 0rem;
         padding:2rem
       }
-
       #map h1 {
         padding: 10rem 0rem;
     }
     h1 {
       font-size: 3rem;
-
   }
   }
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
-
     .slider-left{
       display: flex;
       overflow-x: visible;
@@ -1282,20 +1085,13 @@ margin-left: 0;
           left: 0%
       }
     }
-
-
-
     #home{
       min-height: calc(0.5625 * 100vw);
     }
-
-
   
     #cartoon p{
-
       font-size:24px;
       line-height: 38px;
-
       padding: 2rem 1rem !important;
     }
     
@@ -1310,7 +1106,7 @@ margin-left: 0;
     }
     #greenMap{
       position:relative;
-      height: 195rem;
+      height: 200rem;
     }
     .slider{
       width: 225px;
@@ -1321,17 +1117,14 @@ margin-left: 0;
   
       transform: rotateY(calc(var(--i)*45deg)) translateZ(500px);
       }
-
       #about-text{
    
         
       }
-
       #about-text p {
         line-height: 50px;
         border: solid;
     }
-
     p {
       font-size: 20px;
   }
@@ -1339,35 +1132,26 @@ margin-left: 0;
     visibility: visible;
     
   }
-
   .flip-box img{
     width: 300px     
   }
-
   #team-container h2 {
     font-size: 36px;
 }
-
 #genesis p{
   font-size: 20px;
   line-height: 34px;
   margin: 1rem 0rem;
   padding:2rem
 }
-
-
 #map div{
-
   width: 50%;
-
   
 }
-
 #navbarNav{
   border-radius: 25px;
   background-color: #00000000;
 }
-
 #map h1 {
   padding: 8rem 0rem;
 }
@@ -1390,17 +1174,13 @@ margin-left: 0;
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1500px) {
-
     #team-container p {
       font-size: 26px;
     line-height: 44px;
   }
-
     #cartoon p{
-
       font-size:22px;
       line-height: 34px;
-
       padding: 2rem 1rem !important;
     }
     
@@ -1420,7 +1200,7 @@ margin-left: 0;
     }
     #greenMap{
       position:relative;
-      height: 190rem;
+      height: 200rem;
     }
     #map h1 {
       padding: 10rem 0rem;
@@ -1438,21 +1218,16 @@ margin-left: 0;
   
     font-size: 2.5rem;
   }
-
   .slider{
     width: 250px;
     height: 250px;
   }
-
   .slider span{
-
     transform: rotateY(calc(var(--i)*45deg)) translateZ(calc(600px));
     }
-
     #about-text{
      
     }
-
     #about-3{
       visibility: hidden;
       position: absolute;
@@ -1469,26 +1244,20 @@ margin-left: 0;
       width: 25%;
       
   }
-
   .second-team {
     height: 50rem!important;
 }
-
 #team-container h2 {
   font-size: 48px;
 }
-
 #genesis p{
   font-size: 24px;
   line-height: 36px;
   margin: 1rem 0rem;
   padding:3rem
 }
-
 #map div{
-
   width: 40%;
-
   
 }
   }

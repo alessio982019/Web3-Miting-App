@@ -128,9 +128,9 @@ function Mint(){
 <h1>Pumpkins are not on sale yet!</h1>
 <h3>Keep yourself up to date by following us on our social channels:</h3>
       <s.SpacerLarge></s.SpacerLarge>
-      <div className="d-flex justify-content-around">
+      <div className=" justify-content-around" id="mint-links">
         
-      <a href="https://twitter.com/GGP_NFT" id='btn-twitter' target="_blank" className="btn"><img src="https://img.icons8.com/color/48/000000/twitter--v1.png"/>Follow</a>
+      <a href="https://twitter.com/GGP_NFT" id='btn-twitter' target="_blank" className="btn"><img src="https://img.icons8.com/color/48/000000/twitter--v1.png"/>Twitter</a>
         
         
       <a className="btn " href="https://instagram.com/greengangpumpkins?utm_medium=copy_link" id='btn-instagram' target="_blank"><img src={Instagram}/>Instagram</a>
