@@ -82,8 +82,8 @@ function GreenMap(){
                     <ul className="text-start">
                     <li>During the trek...some pumpkins develop a sense of rejection of good intentions. A new battle is upon us: We need the right armor to restore balance: Merchandising Development!</li>
                             <li>
-                            Unbelievable partnership with a 3-time Oscar winner for "Apocalypse now", "Reds" and "The Last Emperor".  Are you curious about the benefits to GGP holders, resulting from the collaboration? Two great prizes will be dedicated to our family! 
-What will it be? Who will be the Artist? Follow us on the main social.
+                            Unbelievable partnership with a 3-time Oscar WINNER. <br/> Are you curious about the benefits to GGP holders, resulting from the collaboration? Two great prizes will be dedicated to our family! 
+                            What will it be? Who will be the Artist? Follow us on the main social.
                             </li>
                             
                          

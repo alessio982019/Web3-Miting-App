@@ -136,7 +136,7 @@ function Mint(){
       <a className="btn " href="https://instagram.com/greengangpumpkins?utm_medium=copy_link" id='btn-instagram' target="_blank"><img src={Instagram}/>Instagram</a>
 
 
-      <a className="btn" id='btn-discord' target="_blank"><img src="https://img.icons8.com/doodle/48/000000/discord-logo.png"/>Discord</a>
+      <a className="btn" id='btn-discord' target="_blank" href="https://discord.gg/wT2jRJt8Gu"><img src="https://img.icons8.com/doodle/48/000000/discord-logo.png"/>Discord</a>
      
      
         {/* <a  href="https://twitter.com/GGP_NFT" target="_blank"> <img src="https://img.icons8.com/color/48/000000/twitter--v1.png"/></a>
