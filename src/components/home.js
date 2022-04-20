@@ -5,7 +5,7 @@ import Bounce from 'react-reveal/Bounce';
 function Home(){
     return(
         <div className="" id='home'>
-               {/* <img src={Image_btm} className=' position-absolute' alt="" />  */}
+               
                 <Bounce right>
                 <Mint/>
                 </Bounce>
